@@ -143,7 +143,29 @@
 
 ---
 
-## ⚙️ 7. ऑटोमेशन स्क्रिप्ट्स का उपयोग (Python Automation)
+## 🏆 7. सम्पूर्ण SAT ऑल-सब्जेक्ट महामंथन (NMMS SAT Grand MahaManthan — 10 Full Practice Sets)
+
+परीक्षा से ठीक पहले संपूर्ण विषयों के एक साथ अभ्यास हेतु `NMMS_SAT_Grand_MahaManthan_SagarSir/` फ़ोल्डर तैयार किया गया है:
+- **प्रत्येक टेस्ट में कुल 90 प्रश्न (185 Slides):**
+  - **भाग 1: विज्ञान (Science — 35 प्रश्न):** भौतिकी 12 + रसायन 11 + जीव विज्ञान 12
+  - **भाग 2: सामाजिक विज्ञान (SST — 35 प्रश्न):** इतिहास 12 + भूगोल 12 + नागरिक शास्त्र 11
+  - **भाग 3: गणित (Mathematics — 20 प्रश्न):** अंकगणित 5 + बीजगणित 5 + ज्यामिति व क्षेत्रमिति 6 + संख्या पद्धति व प्रायिकता 4
+- **2-स्लाइड इंटरैक्टिव पैटर्न:** स्लाइड 1 पर प्रश्न + 4 विकल्प (उत्तर गुप्त), स्लाइड 2 पर सही विकल्प हरे रंग (`#166534`) में प्रकाशित + सम्पूर्ण हल व वैज्ञानिक/ऐतिहासिक व्याख्या।
+- **कुल 10 टेस्ट्स (1,850 Slides • 900 Questions):**
+  1. `MahaManthan_SAT_Test_01.pptx` (185 Slides)
+  2. `MahaManthan_SAT_Test_02.pptx` (185 Slides)
+  3. `MahaManthan_SAT_Test_03.pptx` (185 Slides)
+  4. `MahaManthan_SAT_Test_04.pptx` (185 Slides)
+  5. `MahaManthan_SAT_Test_05.pptx` (185 Slides)
+  6. `MahaManthan_SAT_Test_06.pptx` (185 Slides)
+  7. `MahaManthan_SAT_Test_07.pptx` (185 Slides)
+  8. `MahaManthan_SAT_Test_08.pptx` (185 Slides)
+  9. `MahaManthan_SAT_Test_09.pptx` (185 Slides)
+  10. `MahaManthan_SAT_Test_10.pptx` (185 Slides)
+
+---
+
+## ⚙️ 8. ऑटोमेशन स्क्रिप्ट्स का उपयोग (Python Automation)
 
 इस रिपॉजिटरी में `scripts/` डायरेक्टरी के अंतर्गत सभी निर्माण स्क्रिप्ट्स दी गई हैं:
 
@@ -163,6 +185,15 @@
 6. `generate_science_class21_and_mocks.py` — 50-प्रश्नों वाले मॉक टेस्ट व ग्रांड फाइनल इंजन।
 7. `build_science_tests_batch1.py` एवं `batch2.py` — Class 21 एवं Mock Tests 01 से 05।
 
+### सम्पूर्ण SAT महामंथन (All-Subject 90Q Sets):
+1. `build_mahamanthan_sat_base.py` — 90 प्रश्नों (185 स्लाइड्स) का मास्टर बेस लेआउट व कार्ड इंजन।
+2. `generate_sat_tests_01_02.py` — SAT Tests 01 व 02।
+3. `generate_sat_tests_03_04.py` — SAT Tests 03 व 04।
+4. `generate_sat_tests_05_06.py` — SAT Tests 05 व 06।
+5. `generate_sat_tests_07_08.py` — SAT Tests 07 व 08।
+6. `generate_sat_tests_09_10.py` — SAT Tests 09 व 10।
+
 ---
 **सफलता का एक ही नाम — सागर कोचिंग सेंटर, भगवानपुर (सुपौल)!**
+
 
