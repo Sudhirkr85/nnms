@@ -103,22 +103,66 @@
 
 ---
 
-## ⚙️ 6. ऑटोमेशन स्क्रिप्ट्स का उपयोग (Python Automation)
+## 🔬 6. पूर्ण निर्मित विज्ञान पाठ्यक्रम (Science Course Architecture — 26 PPTs)
+
+विज्ञान (Science — 35 Marks in SAT) का संपूर्ण पाठ्यक्रम `Science_Complete_Course_SagarSir/` में शाखावार फोल्डरों में व्यवस्थित किया गया है:
+
+### 📁 01_Physics_भौतिक_विज्ञान (6 PPTs • 222 Slides)
+- `Class_01_Motion_Speed_Force.pptx` (37 Slides)
+- `Class_02_Light_Mirrors_Lenses.pptx` (37 Slides)
+- `Class_03_Electricity_Circuits_Magnetism.pptx` (37 Slides)
+- `Class_04_Sound_Waves_HumanEar.pptx` (37 Slides)
+- `Class_05_Heat_Temperature_Thermometer.pptx` (37 Slides)
+- `Class_06_Pressure_Gravitation_NaturalPhenomena.pptx` (37 Slides)
+
+### 📁 02_Chemistry_रसायन_विज्ञान (5 PPTs • 185 Slides)
+- `Class_07_Matter_Atoms_Molecules.pptx` (37 Slides)
+- `Class_08_Acids_Bases_Salts_pH.pptx` (37 Slides)
+- `Class_09_Metals_NonMetals_Reactions.pptx` (37 Slides)
+- `Class_10_Combustion_Flame_Fuels.pptx` (37 Slides)
+- `Class_11_SyntheticFibres_Plastics_Changes.pptx` (37 Slides)
+
+### 📁 03_Biology_जीव_विज्ञान (6 PPTs • 220 Slides)
+- `Class_12_Cell_Structure_Functions.pptx` (37 Slides)
+- `Class_13_Nutrition_Plants_Animals.pptx` (36 Slides)
+- `Class_14_Respiration_Circulation_Excretion.pptx` (37 Slides)
+- `Class_15_Reproduction_Plants_Animals.pptx` (36 Slides)
+- `Class_16_Microorganisms_Friends_Foe.pptx` (37 Slides)
+- `Class_17_CropProduction_Forests_Conservation.pptx` (37 Slides)
+
+### 📁 04_Science_MahaManthan_मॉक_टेस्ट्स (9 PPTs • 819 Slides)
+- `Class_18_Grand_Physics_MahaManthan.pptx` (63 Slides • 30 PYQs)
+- `Class_19_Grand_Chemistry_MahaManthan.pptx` (63 Slides • 30 PYQs)
+- `Class_20_Grand_Biology_MahaManthan.pptx` (63 Slides • 30 PYQs)
+- `Class_21_Grand_Final_Science_MahaManthan.pptx` (105 Slides • 50 PYQs)
+- `Mock_Test_01.pptx` (105 Slides • 50 Questions)
+- `Mock_Test_02.pptx` (105 Slides • 50 Questions)
+- `Mock_Test_03.pptx` (105 Slides • 50 Questions)
+- `Mock_Test_04.pptx` (105 Slides • 50 Questions)
+- `Mock_Test_05.pptx` (105 Slides • 50 Questions)
+
+---
+
+## ⚙️ 7. ऑटोमेशन स्क्रिप्ट्स का उपयोग (Python Automation)
 
 इस रिपॉजिटरी में `scripts/` डायरेक्टरी के अंतर्गत सभी निर्माण स्क्रिप्ट्स दी गई हैं:
+
+### सामाजिक विज्ञान (SST Course):
 1. `build_sst_base.py` — कोर बेस लेआउट, हेडर, कार्ड, 2-स्लाइड इंटरैक्टिव इंजन।
 2. `generate_civics_classes.py` — नागरिक शास्त्र (Classes 01-04)।
 3. `generate_history_classes.py` — इतिहास (Classes 05-11)।
 4. `generate_geo_classes_50min_p1.py` एवं `p2.py` — भूगोल (Classes 12-17)।
 5. `generate_all_50q_practice_tests.py` — 10 फुल-लेंथ 50Q मॉक टेस्ट्स (Tests 01-10)।
-6. `verify_clean_ppts.py` — स्वचालित जांच स्क्रिप्ट (पक्का करती है कि किसी भी PPT में कोई वर्जित शब्द या त्रुटि न हो)।
 
-**नया विषय बनाने हेतु कमांड:**
-```bash
-python scripts/build_sst_base.py
-# बेस मॉड्यूल को इम्पोर्ट करके नए विषय का स्क्रिप्ट रन करें
-python scripts/generate_new_subject.py
-```
+### विज्ञान (Science Course):
+1. `build_science_base.py` — साइंस थीम (Navy Blue + Teal + Gold), लोगो व हेडर ऑटोमेशन इंजन।
+2. `generate_physics_classes.py` एवं `p2.py` — भौतिक विज्ञान (Classes 01-06)।
+3. `generate_chemistry_classes.py` — रसायन विज्ञान (Classes 07-11)।
+4. `generate_biology_classes.py` — जीव विज्ञान (Classes 12-17)।
+5. `generate_science_mahamanthan_mock.py` — शाखावार महामंथन (Classes 18-20)।
+6. `generate_science_class21_and_mocks.py` — 50-प्रश्नों वाले मॉक टेस्ट व ग्रांड फाइनल इंजन।
+7. `build_science_tests_batch1.py` एवं `batch2.py` — Class 21 एवं Mock Tests 01 से 05।
 
 ---
 **सफलता का एक ही नाम — सागर कोचिंग सेंटर, भगवानपुर (सुपौल)!**
+
