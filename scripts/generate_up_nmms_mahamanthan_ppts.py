@@ -290,20 +290,20 @@ def add_section_divider(prs, section_title, section_desc, slide_num, total_slide
     p2.font.color.rgb = RGBColor(203, 213, 225)
     p2.space_before = Pt(10)
 
-def add_interactive_mcq_pair(prs, q_num, question, options, correct_opt, explanation, exam_tag, subject_name, slide_num, total_slides):
+def add_interactive_mcq_pair(prs, q_num, q_hi, q_en, options, correct_opt, explanation, exam_tag, subject_name, slide_num, total_slides):
     opt_labels = ["A", "B", "C", "D"]
     opt_pos = [
-        (Inches(0.5), Inches(2.85), Inches(5.95), Inches(1.15)),
-        (Inches(6.88), Inches(2.85), Inches(5.95), Inches(1.15)),
-        (Inches(0.5), Inches(4.15), Inches(5.95), Inches(1.15)),
-        (Inches(6.88), Inches(4.15), Inches(5.95), Inches(1.15)),
+        (Inches(0.5), Inches(2.95), Inches(5.95), Inches(1.1)),
+        (Inches(6.88), Inches(2.95), Inches(5.95), Inches(1.1)),
+        (Inches(0.5), Inches(4.18), Inches(5.95), Inches(1.1)),
+        (Inches(6.88), Inches(4.18), Inches(5.95), Inches(1.1)),
     ]
 
     # SLIDE 1: QUESTION ONLY (ANSWER HIDDEN)
     s1 = prs.slides.add_slide(prs.slide_layouts[6])
     add_header_footer(s1, f"{subject_name} • प्र. #{q_num}  [{exam_tag}]", slide_num, total_slides)
 
-    q_card1 = s1.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.5), Inches(1.15), Inches(12.333), Inches(1.55))
+    q_card1 = s1.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.5), Inches(1.15), Inches(12.333), Inches(1.68))
     q_card1.fill.solid()
     q_card1.fill.fore_color.rgb = C_BLUE_CARD
     q_card1.line.color.rgb = C_INDIGO
@@ -312,13 +312,24 @@ def add_interactive_mcq_pair(prs, q_num, question, options, correct_opt, explana
     q_tf1 = q_card1.text_frame
     q_tf1.word_wrap = True
     q_tf1.margin_left = Inches(0.3)
+    q_tf1.margin_top = Inches(0.1)
+    q_tf1.margin_bottom = Inches(0.1)
     q_tf1.vertical_anchor = MSO_ANCHOR.MIDDLE
-    qp1 = q_tf1.paragraphs[0]
-    qp1.text = f"प्र. {q_num}. {question}"
-    qp1.font.name = "Segoe UI"
-    qp1.font.size = Pt(16.5)
-    qp1.font.bold = True
-    qp1.font.color.rgb = C_NAVY
+
+    qp1_hi = q_tf1.paragraphs[0]
+    qp1_hi.text = f"प्र. {q_num}. {q_hi}"
+    qp1_hi.font.name = "Segoe UI"
+    qp1_hi.font.size = Pt(16)
+    qp1_hi.font.bold = True
+    qp1_hi.font.color.rgb = C_NAVY
+
+    qp1_en = q_tf1.add_paragraph()
+    qp1_en.text = f"Q. {q_num}. {q_en}"
+    qp1_en.font.name = "Segoe UI"
+    qp1_en.font.size = Pt(14)
+    qp1_en.font.bold = True
+    qp1_en.font.color.rgb = RGBColor(37, 99, 235)
+    qp1_en.space_before = Pt(3)
 
     for idx, (lbl, opt_text) in enumerate(zip(opt_labels, options)):
         left, top, w, h = opt_pos[idx]
@@ -335,7 +346,7 @@ def add_interactive_mcq_pair(prs, q_num, question, options, correct_opt, explana
         p = tf.paragraphs[0]
         p.text = f"({lbl})  {opt_text}"
         p.font.name = "Segoe UI"
-        p.font.size = Pt(15)
+        p.font.size = Pt(14)
         p.font.bold = True
         p.font.color.rgb = C_DARK
 
@@ -343,7 +354,7 @@ def add_interactive_mcq_pair(prs, q_num, question, options, correct_opt, explana
     s2 = prs.slides.add_slide(prs.slide_layouts[6])
     add_header_footer(s2, f"{subject_name} • प्र. #{q_num}  [{exam_tag}]  —  [उत्तर व व्याख्या]", slide_num + 1, total_slides)
 
-    q_card2 = s2.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.5), Inches(1.15), Inches(12.333), Inches(1.55))
+    q_card2 = s2.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.5), Inches(1.15), Inches(12.333), Inches(1.68))
     q_card2.fill.solid()
     q_card2.fill.fore_color.rgb = C_BLUE_CARD
     q_card2.line.color.rgb = C_INDIGO
@@ -352,13 +363,24 @@ def add_interactive_mcq_pair(prs, q_num, question, options, correct_opt, explana
     q_tf2 = q_card2.text_frame
     q_tf2.word_wrap = True
     q_tf2.margin_left = Inches(0.3)
+    q_tf2.margin_top = Inches(0.1)
+    q_tf2.margin_bottom = Inches(0.1)
     q_tf2.vertical_anchor = MSO_ANCHOR.MIDDLE
-    qp2 = q_tf2.paragraphs[0]
-    qp2.text = f"प्र. {q_num}. {question}"
-    qp2.font.name = "Segoe UI"
-    qp2.font.size = Pt(16.5)
-    qp2.font.bold = True
-    qp2.font.color.rgb = C_NAVY
+
+    qp2_hi = q_tf2.paragraphs[0]
+    qp2_hi.text = f"प्र. {q_num}. {q_hi}"
+    qp2_hi.font.name = "Segoe UI"
+    qp2_hi.font.size = Pt(16)
+    qp2_hi.font.bold = True
+    qp2_hi.font.color.rgb = C_NAVY
+
+    qp2_en = q_tf2.add_paragraph()
+    qp2_en.text = f"Q. {q_num}. {q_en}"
+    qp2_en.font.name = "Segoe UI"
+    qp2_en.font.size = Pt(14)
+    qp2_en.font.bold = True
+    qp2_en.font.color.rgb = RGBColor(37, 99, 235)
+    qp2_en.space_before = Pt(3)
 
     for idx, (lbl, opt_text) in enumerate(zip(opt_labels, options)):
         left, top, w, h = opt_pos[idx]
@@ -383,12 +405,12 @@ def add_interactive_mcq_pair(prs, q_num, question, options, correct_opt, explana
         prefix = "✅ " if is_correct else ""
         p.text = f"{prefix}({lbl})  {opt_text}"
         p.font.name = "Segoe UI"
-        p.font.size = Pt(15)
+        p.font.size = Pt(14)
         p.font.bold = True
         p.font.color.rgb = C_GREEN if is_correct else RGBColor(148, 163, 184)
 
     # Bottom Explanation Card
-    ans_card = s2.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.5), Inches(5.42), Inches(12.333), Inches(1.48))
+    ans_card = s2.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.5), Inches(5.42), Inches(12.333), Inches(1.5))
     ans_card.fill.solid()
     ans_card.fill.fore_color.rgb = C_AMBER_CARD
     ans_card.line.color.rgb = C_GOLD
@@ -400,7 +422,7 @@ def add_interactive_mcq_pair(prs, q_num, question, options, correct_opt, explana
     atf.margin_top = Inches(0.12)
 
     ap0 = atf.paragraphs[0]
-    ap0.text = f"✅ सही उत्तर: विकल्प ({correct_opt})"
+    ap0.text = f"✅ सही उत्तर / Correct Option: ({correct_opt})"
     ap0.font.name = "Segoe UI"
     ap0.font.size = Pt(15)
     ap0.font.bold = True
@@ -409,7 +431,7 @@ def add_interactive_mcq_pair(prs, q_num, question, options, correct_opt, explana
     ap1 = atf.add_paragraph()
     ap1.text = f"💡 व्याख्या एवं ट्रिक (Explanation): {explanation}"
     ap1.font.name = "Segoe UI"
-    ap1.font.size = Pt(13.5)
+    ap1.font.size = Pt(13)
     ap1.font.bold = False
     ap1.font.color.rgb = C_DARK
     ap1.space_before = Pt(3)
@@ -464,7 +486,7 @@ def add_outro_slide(prs, exam_title, total_slides):
 
 
 def build_up_mat_deck():
-    print("Generating UP NMMS MAT MahaManthan Deck...")
+    print("Generating UP NMMS MAT MahaManthan Deck (Bilingual)...")
     prs = create_base_presentation()
 
     total_questions = len(UP_MAT_QUESTIONS)
@@ -473,14 +495,14 @@ def build_up_mat_deck():
 
     add_title_slide(
         prs,
-        badge_text="UP NMMS नवम्बर परीक्षा 2024-25 महामंथन",
+        badge_text="UP NMMS नवम्बर परीक्षा 2024-25 महामंथन (Bilingual)",
         main_title="मानसिक योग्यता परीक्षण (MAT) 100+ सुपर मैराथन",
-        sub_desc="संपूर्ण 12 रीजनिंग विषयों के सबसे ज्यादा पूछे जाने वाले अति-महत्वपूर्ण प्रश्न (102 Questions)",
+        sub_desc="Mental Ability Test (MAT) • 100+ Most Predicted Questions (Hindi & English)",
         topics_list=[
             "संख्या व अक्षर श्रेणी (Number & Letter Series)",
             "सादृश्यता एवं वर्गीकरण (Analogy & Odd-One Out)",
             "कोडिंग-डिकोडिंग एवं लुप्त संख्याएं (Missing Numbers in Figures)",
-            "गणितीय संक्रियाएं, रक्त संबंध, दिशा-दूरी एवं वेन आरेख"
+            "गणितीय संक्रियाएं, रक्त संबंध, दिशा-दूरी एवं वेन आरेख (Bilingual Format)"
         ]
     )
 
@@ -491,11 +513,12 @@ def build_up_mat_deck():
         add_interactive_mcq_pair(
             prs=prs,
             q_num=q["q_num"],
-            question=q["question"],
+            q_hi=q["question_hi"],
+            q_en=q["question_en"],
             options=q["options"],
             correct_opt=q["correct"],
             explanation=q["explanation"],
-            exam_tag="UP NMMS Most Predicted",
+            exam_tag="UP NMMS Bilingual",
             subject_name=f"MAT • {q['topic']}",
             slide_num=curr_slide,
             total_slides=total_slides
@@ -511,7 +534,7 @@ def build_up_mat_deck():
 
 
 def build_up_sat_deck():
-    print("Generating UP NMMS SAT MahaManthan Deck...")
+    print("Generating UP NMMS SAT MahaManthan Deck (Bilingual)...")
     prs = create_base_presentation()
 
     total_questions = len(UP_SAT_QUESTIONS)
@@ -520,14 +543,14 @@ def build_up_sat_deck():
 
     add_title_slide(
         prs,
-        badge_text="UP NMMS नवम्बर परीक्षा 2024-25 महामंथन",
+        badge_text="UP NMMS नवम्बर परीक्षा 2024-25 महामंथन (Bilingual)",
         main_title="शैक्षिक योग्यता परीक्षण (SAT) 100 प्रश्न महा मैराथन",
-        sub_desc="विज्ञान (40Q) + सामाजिक अध्ययन (40Q) + गणित (20Q) • उत्तर प्रदेश बेसिक शिक्षा परिषद् पैटर्न",
+        sub_desc="Science (40Q) + Social Studies (40Q) + Mathematics (20Q) • Hindi & English",
         topics_list=[
-            "विज्ञान: भौतिकी (14Q), रसायन (13Q), जीव विज्ञान (13Q)",
-            "सामाजिक अध्ययन: इतिहास (15Q), भूगोल (15Q), नागरिक शास्त्र (10Q) - UP विशेष",
-            "गणित: अंकगणित, बीजगणित, रेखागणित, क्षेत्रमिति एवं सांख्यिकी (20Q)",
-            "उत्तर प्रदेश विशेष: दुधवा पार्क, नरोरा संयंत्र, 1857 केंद्र, प्रयागराज संगम, चौरी-चौरा"
+            "विज्ञान / Science: भौतिकी (14Q), रसायन (13Q), जीव विज्ञान (13Q)",
+            "सामाजिक अध्ययन / SST: इतिहास (15Q), भूगोल (15Q), नागरिक शास्त्र (10Q)",
+            "गणित / Mathematics: अंकगणित, बीजगणित, रेखागणित, क्षेत्रमिति एवं सांख्यिकी (20Q)",
+            "उत्तर प्रदेश विशेष: दुधवा पार्क, नरोरा संयंत्र, 1857 केंद्र, प्रयागराज संगम (द्विभाषी)"
         ]
     )
 
@@ -538,11 +561,12 @@ def build_up_sat_deck():
         add_interactive_mcq_pair(
             prs=prs,
             q_num=q["q_num"],
-            question=q["question"],
+            q_hi=q["question_hi"],
+            q_en=q["question_en"],
             options=q["options"],
             correct_opt=q["correct"],
             explanation=q["explanation"],
-            exam_tag="UP NMMS Most Predicted",
+            exam_tag="UP NMMS Bilingual",
             subject_name=f"SAT • {q['subject']}",
             slide_num=curr_slide,
             total_slides=total_slides

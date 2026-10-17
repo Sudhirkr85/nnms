@@ -2,9 +2,9 @@
 """
 UP NMMS 2024-2025 MahaManthan - SAT (शैक्षिक योग्यता परीक्षण)
 100 High-Yield, High-Probability Predicted Questions for November Exam.
-Mapped directly to UP SCERT Basic Shiksha Parishad Class 7 & 8 Syllabus:
+BILINGUAL EDITION: Hindi + English for every Question and Option.
 - Science (विज्ञान): 40 Questions (Physics 14, Chemistry 13, Biology 13)
-- Social Science (सामाजिक अध्ययन): 40 Questions (History 15, Geography 15, Civics 10 - including UP special)
+- Social Science (सामाजिक अध्ययन): 40 Questions (History 15, Geography 15, Civics 10)
 - Mathematics (गणित): 20 Questions
 Target: 2+ Hours Mega Marathon Live Class with Sagar Sir.
 """
@@ -15,115 +15,129 @@ UP_SAT_QUESTIONS = [
     # =========================================================================
     {
         "q_num": 1,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "चाल (Speed) का SI पद्धति में मूल मात्रक क्या है?",
-        "options": ["किमी/घंटा (km/h)", "मीटर/सेकंड (m/s)", "मीटर × सेकंड", "सेंटीमीटर/मिनट"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "चाल (Speed) का SI पद्धति में मूल मात्रक क्या है?",
+        "question_en": "What is the SI unit of Speed?",
+        "options": ["किमी/घंटा / km/h", "मीटर/सेकंड / m/s", "मीटर × सेकंड / m·s", "सेंटीमीटर/मिनट / cm/min"],
         "correct": "B",
-        "explanation": "चाल = दूरी ÷ समय। दूरी का SI मात्रक 'मीटर' तथा समय का SI मात्रक 'सेकंड' है, अतः चाल का SI मात्रक 'मीटर/सेकंड (m/s)' होता है।"
+        "explanation": "चाल = दूरी ÷ समय। दूरी का SI मात्रक 'मीटर' और समय का 'सेकंड' है, अतः चाल का SI मात्रक m/s होता है।"
     },
     {
         "q_num": 2,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "वाहनों में पीछे का दृश्य (Rear View) देखने के लिए किस दर्पण का उपयोग किया जाता है?",
-        "options": ["समतल दर्पण", "अवतल दर्पण", "उत्तल दर्पण", "परवलयाकार दर्पण"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "वाहनों में पीछे का दृश्य (Rear View) देखने के लिए किस दर्पण का उपयोग किया जाता है?",
+        "question_en": "Which mirror is used as a rear-view mirror in vehicles?",
+        "options": ["समतल दर्पण / Plane Mirror", "अवतल दर्पण / Concave Mirror", "उत्तल दर्पण / Convex Mirror", "परवलयाकार दर्पण / Parabolic Mirror"],
         "correct": "C",
-        "explanation": "उत्तल दर्पण (Convex Mirror) सदैव सीधा और छोटा प्रतिबिम्ब बनाता है तथा इसका दृष्टि-क्षेत्र (Field of view) बहुत विस्तृत होता है, इसलिए वाहनों में साइड मिरर के रूप में इसका प्रयोग होता है।"
+        "explanation": "उत्तल दर्पण (Convex Mirror) सदैव सीधा और छोटा प्रतिबिम्ब बनाता है और इसका दृष्टि-क्षेत्र बहुत विस्तृत होता है।"
     },
     {
         "q_num": 3,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "दांतों के डॉक्टर (Dentist) मरीजों के दांतों का बड़ा प्रतिबिम्ब देखने के लिए किस दर्पण का उपयोग करते हैं?",
-        "options": ["उत्तल दर्पण", "अवतल दर्पण", "समतल दर्पण", "उत्तल लेंस"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "दांतों के डॉक्टर (Dentist) मरीजों के दांतों का बड़ा प्रतिबिम्ब देखने के लिए किस दर्पण का उपयोग करते हैं?",
+        "question_en": "Which mirror is used by dentists to see an enlarged image of teeth?",
+        "options": ["उत्तल दर्पण / Convex Mirror", "अवतल दर्पण / Concave Mirror", "समतल दर्पण / Plane Mirror", "उत्तल लेंस / Convex Lens"],
         "correct": "B",
-        "explanation": "अवतल दर्पण (Concave Mirror) जब वस्तु को ध्रुव और मुख्य फोकस के बीच रखा जाता है, तो सीधा और बड़ा (आवर्धित) प्रतिबिम्ब बनाता है।"
+        "explanation": "अवतल दर्पण (Concave Mirror) ध्रुव और फोकस के बीच रखी वस्तु का सीधा और आवर्धित (बड़ा) प्रतिबिम्ब बनाता है।"
     },
     {
         "q_num": 4,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "मानव कान के लिए सामान्य श्रव्य ध्वनि (Audible Sound) की आवृत्ति सीमा क्या है?",
-        "options": ["20 Hz से 20,000 Hz", "20 Hz से कम", "20,000 Hz से अधिक", "10 Hz से 10,000 Hz"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "मानव कान के लिए सामान्य श्रव्य ध्वनि (Audible Sound) की आवृत्ति सीमा क्या है?",
+        "question_en": "What is the audible frequency range of sound for human ears?",
+        "options": ["20 Hz से 20,000 Hz", "20 Hz से कम / Below 20 Hz", "20,000 Hz से अधिक / Above 20,000 Hz", "10 Hz से 10,000 Hz"],
         "correct": "A",
-        "explanation": "मानव कर्ण 20 हर्ट्ज से लेकर 20,000 हर्ट्ज (20 kHz) तक की आवृत्तियों को सुन सकता है। 20 Hz से कम को अपश्रव्य (Infrasonic) और 20,000 Hz से अधिक को पराश्रव्य (Ultrasonic) कहते हैं।"
+        "explanation": "मानव कान 20 Hz से 20,000 Hz तक की आवृत्ति सुन सकता है। 20 Hz से कम अपश्रव्य और 20,000 Hz से अधिक पराश्रव्य होती है।"
     },
     {
         "q_num": 5,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "ऊष्मा संचरण की किस विधि में किसी माध्यम (Medium) की आवश्यकता नहीं होती है?",
-        "options": ["चालन (Conduction)", "संवहन (Convection)", "विकिरण (Radiation)", "वाष्पीकरण"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "ऊष्मा संचरण की किस विधि में किसी माध्यम (Medium) की आवश्यकता नहीं होती है?",
+        "question_en": "In which mode of heat transfer is no medium required?",
+        "options": ["चालन / Conduction", "संवहन / Convection", "विकिरण / Radiation", "वाष्पीकरण / Evaporation"],
         "correct": "C",
-        "explanation": "विकिरण (Radiation) विद्युत चुम्बकीय तरंगों के रूप में गति करती है और इसके संचरण हेतु किसी भौतिक माध्यम की आवश्यकता नहीं होती। सूर्य की ऊष्मा पृथ्वी तक विकिरण विधि द्वारा ही पहुँचती है।"
+        "explanation": "विकिरण (Radiation) विद्युत चुम्बकीय तरंगों के रूप में गमन करती है और इसके लिए किसी भौतिक माध्यम की आवश्यकता नहीं होती।"
     },
     {
         "q_num": 6,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "वायुमंडलीय दाब (Atmospheric Pressure) मापने वाले यंत्र को क्या कहते हैं?",
-        "options": ["थर्मामीटर", "बैरोमीटर", "मैनोमीटर", "अमीटर"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "वायुमंडलीय दाब (Atmospheric Pressure) मापने वाले यंत्र को क्या कहते हैं?",
+        "question_en": "What is the instrument used to measure atmospheric pressure called?",
+        "options": ["थर्मामीटर / Thermometer", "बैरोमीटर / Barometer", "मैनोमीटर / Manometer", "अमीटर / Ammeter"],
         "correct": "B",
-        "explanation": "बैरोमीटर (Barometer) का आविष्कार टॉरिसेली ने किया था, जिसका उपयोग वायुमंडलीय दाब मापने के लिए किया जाता है।"
+        "explanation": "बैरोमीटर (Barometer) का उपयोग वायुमंडलीय दाब मापने हेतु किया जाता है।"
     },
     {
         "q_num": 7,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "विद्युत धारा (Electric Current) मापने के लिए परिपथ में किस उपकरण को श्रेणीक्रम में जोड़ा जाता है?",
-        "options": ["वोल्टमीटर", "अमीटर (Ammeter)", "गैल्वेनोमीटर", "प्रतिरोधक"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "विद्युत धारा (Electric Current) मापने के लिए परिपथ में किस उपकरण को श्रेणीक्रम में जोड़ा जाता है?",
+        "question_en": "Which device is connected in series in a circuit to measure electric current?",
+        "options": ["वोल्टमीटर / Voltmeter", "अमीटर / Ammeter", "गैल्वेनोमीटर / Galvanometer", "प्रतिरोधक / Resistor"],
         "correct": "B",
-        "explanation": "अमीटर (Ammeter) विद्युत धारा के परिमाण को एम्पीयर में मापता है और इसे परिपथ में सदैव श्रेणीक्रम (Series) में लगाया जाता है।"
+        "explanation": "अमीटर (Ammeter) विद्युत धारा को एम्पीयर में मापता है और इसे परिपथ में सदैव श्रेणीक्रम (Series) में लगाया जाता है।"
     },
     {
         "q_num": 8,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "प्रकाश का किसी चिकने या चमकदार तल से टकराकर उसी माध्यम में वापस लौटने की घटना को क्या कहते हैं?",
-        "options": ["प्रकाश का अपवर्तन", "प्रकाश का परावर्तन", "प्रकाश का प्रकीर्णन", "प्रकाश का वर्ण विक्षेपण"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "प्रकाश का किसी चमकदार तल से टकराकर उसी माध्यम में वापस लौटने की घटना को क्या कहते हैं?",
+        "question_en": "The bouncing back of light into the same medium after hitting a surface is called:",
+        "options": ["प्रकाश का अपवर्तन / Refraction", "प्रकाश का परावर्तन / Reflection", "प्रकाश का प्रकीर्णन / Scattering", "वर्ण विक्षेपण / Dispersion"],
         "correct": "B",
-        "explanation": "प्रकाश की किरण का किसी पॉलिशदार या चिकनी सतह से टकराकर वापस उसी माध्यम में लौटना 'प्रकाश का परावर्तन (Reflection of Light)' कहलाता है।"
+        "explanation": "प्रकाश की किरण का किसी पॉलिशदार सतह से टकराकर लौटना 'प्रकाश का परावर्तन (Reflection)' कहलाता है।"
     },
     {
         "q_num": 9,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "निर्वात (Vacuum) में प्रकाश की चाल कितनी होती है?",
-        "options": ["3 × 10⁸ मीटर/सेकंड", "3 × 10⁵ मीटर/सेकंड", "332 मीटर/सेकंड", "3 × 10⁶ मीटर/सेकंड"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "निर्वात (Vacuum) में प्रकाश की चाल कितनी होती है?",
+        "question_en": "What is the speed of light in vacuum?",
+        "options": ["3 × 10⁸ m/s", "3 × 10⁵ m/s", "332 m/s", "3 × 10⁶ m/s"],
         "correct": "A",
-        "explanation": "निर्वात में प्रकाश की चाल सार्वत्रिक नियतांक (c) है जिसका मान 3 × 10⁸ m/s (अर्थात 3 लाख किलोमीटर प्रति सेकंड) होता है।"
+        "explanation": "निर्वात में प्रकाश की चाल 3 × 10⁸ मीटर/सेकंड (3 लाख किमी प्रति सेकंड) होती है।"
     },
     {
         "q_num": 10,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "स्वस्थ मनुष्य के शरीर का सामान्य तापमान सेल्सियस तथा फारेनहाइट पैमाने पर क्रमशः कितना होता है?",
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "स्वस्थ मानव शरीर का सामान्य तापमान सेल्सियस और फारेनहाइट पैमाने पर कितना होता है?",
+        "question_en": "What is the normal temperature of a healthy human body in Celsius and Fahrenheit?",
         "options": ["37°C और 98.6°F", "35°C और 96.8°F", "38°C और 100°F", "40°C और 104°F"],
         "correct": "A",
-        "explanation": "मानव शरीर का सामान्य तापमान 37°C (सेल्सियस) अथवा 98.6°F (फारेनहाइट) अथवा 310 K (केल्विन) होता है।"
+        "explanation": "मानव शरीर का सामान्य तापमान 37°C अथवा 98.6°F (310 K) होता है।"
     },
     {
         "q_num": 11,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "बल (Force) और क्षेत्रफल (Area) के अनुपात को क्या कहते हैं?",
-        "options": ["कार्य", "ऊर्जा", "दाब (Pressure)", "शक्ति"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "बल (Force) और क्षेत्रफल (Area) के अनुपात को क्या कहते हैं?",
+        "question_en": "The ratio of Force to Area is called:",
+        "options": ["कार्य / Work", "ऊर्जा / Energy", "दाब / Pressure", "शक्ति / Power"],
         "correct": "C",
-        "explanation": "एकांक क्षेत्रफल पर लगने वाले अभिलंबवत बल को दाब कहते हैं (दाब = बल / क्षेत्रफल)। इसका SI मात्रक पास्कल (N/m²) है।"
+        "explanation": "दाब = बल ÷ क्षेत्रफल (Pressure = Force / Area)। इसका मात्रक पास्कल ($N/m^2$) है।"
     },
     {
         "q_num": 12,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "घर्षण बल (Friction Force) के संदर्भ में कौन-सा कथन सत्य है?",
-        "options": ["यह गति की दिशा में कार्य करता है", "यह गति की विपरीत दिशा में कार्य करता है", "यह गति को तेज करता है", "यह केवल द्रवों में लगता है"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "घर्षण बल (Friction Force) के संदर्भ में कौन-सा कथन सत्य है?",
+        "question_en": "Which statement is true regarding friction force?",
+        "options": ["यह गति की दिशा में कार्य करता है", "यह गति की विपरीत दिशा में कार्य करता है / Opposes motion", "यह गति को तेज करता है", "यह केवल द्रवों में लगता है"],
         "correct": "B",
-        "explanation": "घर्षण बल संपर्क में स्थित दो सतहों के बीच होने वाली आपेक्षिक गति का सदैव विरोध करता है, अतः यह गति की विपरीत दिशा में लगता है।"
+        "explanation": "घर्षण बल दो संपर्क सतहों के बीच होने वाली आपेक्षिक गति का विरोध करता है और गति की विपरीत दिशा में कार्य करता है।"
     },
     {
         "q_num": 13,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "विद्युत चुम्बक (Electromagnet) बनाने के लिए किस प्रकार के लोहे की क्रोड का उपयोग किया जाता है?",
-        "options": ["ढलवा लोहा", "नरम लोहा (Soft Iron)", "स्टील", "पिटवा लोहा"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "विद्युत चुम्बक (Electromagnet) बनाने के लिए किस प्रकार के लोहे की क्रोड का उपयोग किया जाता है?",
+        "question_en": "Which type of iron core is used to make an electromagnet?",
+        "options": ["ढलवा लोहा / Cast Iron", "नरम लोहा / Soft Iron", "स्टील / Steel", "पिटवा लोहा / Wrought Iron"],
         "correct": "B",
-        "explanation": "नरम लोहे (Soft Iron) की चुम्बकशीलता अधिक तथा धारणशीलता कम होती है, जिससे धारा प्रवाहित करते ही यह तीव्र चुम्बक बनता है और धारा बंद होते ही चुम्बकत्व समाप्त हो जाता है।"
+        "explanation": "नरम लोहे (Soft Iron) की चुम्बकशीलता अधिक होती है जिससे यह धारा प्रवाहित होते ही शक्तिशाली चुम्बक बन जाता है।"
     },
     {
         "q_num": 14,
-        "subject": "विज्ञान (भौतिक)",
-        "question": "तारों का टिमटिमाना (Twinkling of Stars) प्रकाश की किस परिघटना का परिणाम है?",
-        "options": ["प्रकाश का परावर्तन", "वायुमंडलीय अपवर्तन (Atmospheric Refraction)", "प्रकाश का प्रकीर्णन", "पूर्ण आंतरिक परावर्तन"],
+        "subject": "विज्ञान (भौतिक) / Physics",
+        "question_hi": "तारों का टिमटिमाना (Twinkling of Stars) प्रकाश की किस परिघटना का परिणाम है?",
+        "question_en": "Twinkling of stars is a phenomenon caused by:",
+        "options": ["प्रकाश का परावर्तन / Reflection", "वायुमंडलीय अपवर्तन / Atmospheric Refraction", "प्रकाश का प्रकीर्णन / Scattering", "पूर्ण आंतरिक परावर्तन / TIR"],
         "correct": "B",
-        "explanation": "वायुमंडल की विभिन्न परतों का घनत्व और तापमान लगातार बदलता रहता है, जिससे तारों से आने वाली प्रकाश किरणें लगातार अपवर्तित होती हैं और तारे टिमटिमाते हुए प्रतीत होते हैं।"
+        "explanation": "वायुमंडल की बदलती परतों के अपवर्तनांक के कारण प्रकाश लगातार अपवर्तित होता है, जिससे तारे टिमटिमाते दिखाई देते हैं।"
     },
 
     # =========================================================================
@@ -131,107 +145,120 @@ UP_SAT_QUESTIONS = [
     # =========================================================================
     {
         "q_num": 15,
-        "subject": "विज्ञान (रसायन)",
-        "question": "अम्ल नीले लिटमस पत्र को किस रंग में बदल देते हैं?",
-        "options": ["हरा", "लाल", "पीला", "रंगहीन"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "अम्ल (Acids) नीले लिटमस पत्र को किस रंग में बदल देते हैं?",
+        "question_en": "Acids turn blue litmus paper into which color?",
+        "options": ["हरा / Green", "लाल / Red", "पीला / Yellow", "रंगहीन / Colorless"],
         "correct": "B",
-        "explanation": "अम्ल (Acids) स्वाद में खट्टे होते हैं और नीले लिटमस को लाल कर देते हैं। ट्रिक: 'अनिल' (अम्ल नीले को लाल करता है)।"
+        "explanation": "अम्ल नीले लिटमस को लाल कर देते हैं, जबकि क्षार लाल लिटमस को नीला कर देते हैं।"
     },
     {
         "q_num": 16,
-        "subject": "विज्ञान (रसायन)",
-        "question": "शुद्ध जल का pH मान कितना होता है?",
-        "options": ["0", "5", "7 (उदासीन)", "14"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "शुद्ध जल का pH मान कितना होता है?",
+        "question_en": "What is the pH value of pure water?",
+        "options": ["0", "5", "7 (उदासीन / Neutral)", "14"],
         "correct": "C",
-        "explanation": "pH पैमाना 0 से 14 तक होता है। 7 से कम अम्ल, 7 से अधिक क्षार तथा ठीक 7 उदासीन (Neutral) विलयन का pH मान होता है।"
+        "explanation": "शुद्ध जल उदासीन (Neutral) होता है और इसका pH मान ठीक 7 होता है।"
     },
     {
         "q_num": 17,
-        "subject": "विज्ञान (रसायन)",
-        "question": "निम्नलिखित में से कमरे के सामान्य ताप पर द्रव अवस्था में पाई जाने वाली एकमात्र धातु कौन-सी है?",
-        "options": ["सोना", "पारा (मरकरी - Hg)", "सोडियम", "लोहा"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "कमरे के सामान्य तापमान पर द्रव अवस्था में पाई जाने वाली एकमात्र धातु कौन-सी है?",
+        "question_en": "Which is the only metal found in liquid state at room temperature?",
+        "options": ["सोना / Gold", "पारा (मरकरी - Hg) / Mercury", "सोडियम / Sodium", "लोहा / Iron"],
         "correct": "B",
-        "explanation": "पारा (Mercury, Hg) एकमात्र ऐसी धातु है जो कमरे के सामान्य तापमान (25°C) पर द्रव अवस्था में रहती है।"
+        "explanation": "पारा (Mercury, Hg) एकमात्र धातु है जो कमरे के सामान्य तापमान (25°C) पर द्रव अवस्था में रहती है।"
     },
     {
         "q_num": 18,
-        "subject": "विज्ञान (रसायन)",
-        "question": "लोहे पर जंग लगना (Rusting of Iron) किस प्रकार का परिवर्तन है?",
-        "options": ["भौतिक परिवर्तन", "रासायनिक परिवर्तन", "उत्क्रमणीय परिवर्तन", "सामयिक परिवर्तन"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "लोहे पर जंग लगना (Rusting of Iron) किस प्रकार का परिवर्तन है?",
+        "question_en": "Rusting of iron is which type of change?",
+        "options": ["भौतिक परिवर्तन / Physical Change", "रासायनिक परिवर्तन / Chemical Change", "उत्क्रमणीय / Reversible", "सामयिक / Periodic"],
         "correct": "B",
-        "explanation": "लोहा वायु की ऑक्सीजन और नमी (जल) से क्रिया करके नया पदार्थ आयरन ऑक्साइड (जंग) बनाता है, जिसे पूर्व रूप में नहीं लाया जा सकता। अतः यह रासायनिक परिवर्तन है।"
+        "explanation": "लोहा ऑक्सीजन व नमी से क्रिया कर नया पदार्थ आयरन ऑक्साइड बनाता है, अतः यह रासायनिक परिवर्तन है।"
     },
     {
         "q_num": 19,
-        "subject": "विज्ञान (रसायन)",
-        "question": "अग्निशामक यंत्रों (Fire Extinguishers) में आग बुझाने के लिए मुख्य रूप से कौन-सी गैस प्रयुक्त होती है?",
-        "options": ["ऑक्सीजन", "कार्बन डाइऑक्साइड (CO₂)", "नाइट्रोजन", "हाइड्रोजन"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "अग्निशामक यंत्रों (Fire Extinguishers) में आग बुझाने के लिए मुख्य रूप से कौन-सी गैस प्रयुक्त होती है?",
+        "question_en": "Which gas is mainly used in fire extinguishers to put out fire?",
+        "options": ["ऑक्सीजन / O₂", "कार्बन डाइऑक्साइड / CO₂", "नाइट्रोजन / N₂", "हाइड्रोजन / H₂"],
         "correct": "B",
-        "explanation": "कार्बन डाइऑक्साइड (CO₂) ऑक्सीजन से भारी होती है और जलती हुई वस्तु को चादर की तरह ढककर ऑक्सीजन की आपूर्ति काट देती है, जिससे आग बुझ जाती है।"
+        "explanation": "कार्बन डाइऑक्साइड (CO₂) ऑक्सीजन की आपूर्ति काटकर आग बुझा देती है।"
     },
     {
         "q_num": 20,
-        "subject": "विज्ञान (रसायन)",
-        "question": "रसोई गैस सिलेंडरों (LPG) में मुख्य रूप से कौन-सी गैस भरी होती है?",
-        "options": ["मीथेन व एथेन", "ब्यूटेन व प्रोपेन", "कार्बन मोनोक्साइड", "हाइड्रोजन"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "रसोई गैस सिलेंडरों (LPG) में मुख्य रूप से कौन-सी गैसें भरी होती हैं?",
+        "question_en": "Which gases are primarily present in LPG cylinders?",
+        "options": ["मीथेन व एथेन / Methane & Ethane", "ब्यूटेन व प्रोपेन / Butane & Propane", "कार्बन मोनोक्साइड / CO", "हाइड्रोजन / H₂"],
         "correct": "B",
-        "explanation": "तरलीकृत पेट्रोलियम गैस (LPG) में मुख्य घटक ब्यूटेन (Butane) और प्रोपेन (Propane) गैस होती है। रिसाव की पहचान के लिए इसमें एथिल मरकैप्टन मिलाया जाता है।"
+        "explanation": "LPG में मुख्य घटक ब्यूटेन (Butane) और प्रोपेन (Propane) गैस होती है।"
     },
     {
         "q_num": 21,
-        "subject": "विज्ञान (रसायन)",
-        "question": "प्राकृतिक रेशम (Silk) किससे प्राप्त किया जाता है?",
-        "options": ["भेड़ के बाल से", "रेशम कीट (बॉम्बिक्स मोरी) के कोकून से", "कपास के पौधे से", "पटसन के तने से"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "प्राकृतिक रेशम (Silk) किससे प्राप्त किया जाता है?",
+        "question_en": "Natural silk is obtained from:",
+        "options": ["भेड़ के बाल से / Sheep wool", "रेशम कीट के कोकून से / Silkworm Cocoon", "कपास के पौधे से / Cotton plant", "पटसन से / Jute stem"],
         "correct": "B",
-        "explanation": "रेशम कीट पालन (सेरीकल्चर) में शहतूत की पत्तियों पर पले रेशम कीट (सिल्कवर्म) के कोकून (Cocoon) से रेशम के प्राकृतिक रेशे निकाले जाते हैं।"
+        "explanation": "रेशम कीट (Bombyx mori) के कोकून (Cocoon) से प्राकृतिक रेशम के धागे प्राप्त किए जाते हैं।"
     },
     {
         "q_num": 22,
-        "subject": "विज्ञान (रसायन)",
-        "question": "लोहे को जंग से बचाने के लिए उस पर जस्ते (Zinc) की परत चढ़ाने की क्रिया क्या कहलाती है?",
-        "options": ["विद्युत अपघटन", "यशदलेपन / गैल्वेनीकरण (Galvanization)", "उदासीनीकरण", "क्रिस्टलीकरण"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "लोहे को जंग से बचाने के लिए उस पर जस्ते (Zinc) की परत चढ़ाने की क्रिया क्या कहलाती है?",
+        "question_en": "The process of coating iron with a layer of zinc to prevent rusting is called:",
+        "options": ["विद्युत अपघटन / Electrolysis", "यशदलेपन / Galvanization", "उदासीनीकरण / Neutralization", "क्रिस्टलीकरण / Crystallization"],
         "correct": "B",
-        "explanation": "लोहे या इस्पात को जंग से सुरक्षित रखने के लिए उस पर जस्ते की पतली परत चढ़ाई जाती है, जिसे यशदलेपन या गैल्वेनीकरण कहते हैं।"
+        "explanation": "लोहे पर जस्ते की परत चढ़ाना यशदलेपन या गैल्वेनीकरण (Galvanization) कहलाता है।"
     },
     {
         "q_num": 23,
-        "subject": "विज्ञान (रसायन)",
-        "question": "धातुओं को पीटकर पतली चादर में बदलने के गुण को क्या कहा जाता है?",
-        "options": ["तन्यता (Ductility)", "आघातवर्धनीयता (Malleability)", "ध्वानिक (Sonorous)", "चालकता"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "धातुओं को पीटकर पतली चादर में बदलने के गुण को क्या कहा जाता है?",
+        "question_en": "The property of metals to be beaten into thin sheets is called:",
+        "options": ["तन्यता / Ductility", "आघातवर्धनीयता / Malleability", "ध्वानिक / Sonorous", "चालकता / Conductivity"],
         "correct": "B",
-        "explanation": "आघातवर्धनीयता (Malleability) धातुओं का वह गुण है जिससे उन्हें हथौड़े से पीटकर पतली चादर बनाया जा सकता है। सोना और चाँदी सर्वाधिक आघातवर्धनीय हैं।"
+        "explanation": "आघातवर्धनीयता (Malleability) धातुओं का चादर बनने का गुण है। तार खींचने के गुण को तन्यता (Ductility) कहते हैं।"
     },
     {
         "q_num": 24,
-        "subject": "विज्ञान (रसायन)",
-        "question": "जल का रासायनिक सूत्र क्या है?",
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "जल का रासायनिक सूत्र क्या है?",
+        "question_en": "What is the chemical formula of water?",
         "options": ["H₂O", "H₂O₂", "CO₂", "NaCl"],
         "correct": "A",
-        "explanation": "जल (Water) का रासायनिक सूत्र H₂O है, जिसमें हाइड्रोजन और ऑक्सीजन के परमाणु 2:1 के अनुपात में जुड़े होते हैं।"
+        "explanation": "जल का रासायनिक सूत्र H₂O है, जिसमें हाइड्रोजन और ऑक्सीजन 2:1 के अनुपात में जुड़े होते हैं।"
     },
     {
         "q_num": 25,
-        "subject": "विज्ञान (रसायन)",
-        "question": "सामान्य नमक का रासायनिक नाम और सूत्र क्या है?",
-        "options": ["सोडियम क्लोराइड (NaCl)", "सोडियम बाइकार्बोनेट (NaHCO₃)", "कैल्शियम कार्बोनेट (CaCO₃)", "सोडियम हाइड्रोक्साइड (NaOH)"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "साधारण नमक का रासायनिक नाम और सूत्र क्या है?",
+        "question_en": "What is the chemical name and formula of common salt?",
+        "options": ["सोडियम क्लोराइड (NaCl) / Sodium Chloride", "सोडियम बाइकार्बोनेट (NaHCO₃)", "कैल्शियम कार्बोनेट (CaCO₃)", "सोडियम हाइड्रोक्साइड (NaOH)"],
         "correct": "A",
-        "explanation": "खाने के साधारण नमक का रासायनिक नाम सोडियम क्लोराइड (Sodium Chloride) तथा सूत्र NaCl है।"
+        "explanation": "साधारण खाने के नमक का रासायनिक नाम सोडियम क्लोराइड (NaCl) है।"
     },
     {
         "q_num": 26,
-        "subject": "विज्ञान (रसायन)",
-        "question": "अम्ल और क्षार की परस्पर क्रिया से लवण और जल बनने की रासायनिक अभिक्रिया क्या कहलाती है?",
-        "options": ["ऑक्सीकरण", "अपचयन", "उदासीनीकरण (Neutralization)", "संयोजन"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "अम्ल और क्षार की क्रिया से लवण और जल बनने की अभिक्रिया क्या कहलाती है?",
+        "question_en": "The reaction between an acid and a base to form salt and water is called:",
+        "options": ["ऑक्सीकरण / Oxidation", "अपचयन / Reduction", "उदासीनीकरण / Neutralization", "संयोजन / Combination"],
         "correct": "C",
-        "explanation": "अम्ल + क्षार → लवण + जल + ऊष्मा। इस परस्पर प्रभाव समाप्त करने वाली क्रिया को उदासीनीकरण (उदासीनीकरण अभिक्रिया) कहते हैं।"
+        "explanation": "अम्ल + क्षार → लवण + जल + ऊष्मा। इसे उदासीनीकरण अभिक्रिया (Neutralization) कहते हैं।"
     },
     {
         "q_num": 27,
-        "subject": "विज्ञान (रसायन)",
-        "question": "विद्युत के स्विच और प्लग बनाने के लिए किस थर्मोसेटिंग प्लास्टिक का उपयोग किया जाता है?",
-        "options": ["पॉलीथीन", "पीवीसी (PVC)", "बैकेलाइट (Bakelite)", "नायलॉन"],
+        "subject": "विज्ञान (रसायन) / Chemistry",
+        "question_hi": "बिजली के स्विच और प्लग बनाने के लिए किस थर्मोसेटिंग प्लास्टिक का उपयोग किया जाता है?",
+        "question_en": "Which thermosetting plastic is used to make electrical switches and plugs?",
+        "options": ["पॉलीथीन / Polythene", "पीवीसी / PVC", "बैकेलाइट / Bakelite", "नायलॉन / Nylon"],
         "correct": "C",
-        "explanation": "बैकेलाइट ऊष्मा और विद्युत का कुचालक होता है तथा गर्म करने पर पिघलता नहीं है, इसलिए इसका उपयोग बिजली के स्विच, प्लग और बर्तनों के हत्थे बनाने में होता है।"
+        "explanation": "बैकेलाइट (Bakelite) विद्युत व ऊष्मा का कुचालक थर्मोसेटिंग प्लास्टिक है, अतः स्विच बनाने में प्रयुक्त होता है।"
     },
 
     # =========================================================================
@@ -239,107 +266,120 @@ UP_SAT_QUESTIONS = [
     # =========================================================================
     {
         "q_num": 28,
-        "subject": "विज्ञान (जीव)",
-        "question": "कोशिका का 'शक्तिगृह' या 'पावर हाउस' (Power House of Cell) किसे कहा जाता है?",
-        "options": ["राइबोसोम", "माइटोकॉन्ड्रिया", "गॉल्जीकाय", "लाइसोसोम"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "कोशिका का 'पावर हाउस' (Powerhouse of the Cell) किसे कहा जाता है?",
+        "question_en": "Which organelle is called the 'Powerhouse of the Cell'?",
+        "options": ["राइबोसोम / Ribosome", "माइटोकॉन्ड्रिया / Mitochondria", "गॉल्जीकाय / Golgi Body", "लाइसोसोम / Lysosome"],
         "correct": "B",
-        "explanation": "माइटोकॉन्ड्रिया में कोशिकीय श्वसन द्वारा ऊर्जा ATP (एडेनोसिन ट्राइफॉस्फेट) के रूप में उत्पन्न व संचित होती है, इसलिए इसे कोशिका का पावर हाउस कहते हैं।"
+        "explanation": "माइटोकॉन्ड्रिया में कोशिकीय श्वसन द्वारा ऊर्जा ATP के रूप में संचित होती है, इसलिए इसे पावरहाउस कहते हैं।"
     },
     {
         "q_num": 29,
-        "subject": "विज्ञान (जीव)",
-        "question": "पौधों की पत्तियों का हरा रंग किस वर्णक (Pigment) की उपस्थिति के कारण होता है?",
-        "options": ["हीमोग्लोबिन", "क्लोरोफिल (पर्णहरित)", "कैरोटीन", "एंथोसायनिन"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "पौधों की पत्तियों का हरा रंग किस वर्णक (Pigment) के कारण होता है?",
+        "question_en": "The green color of plant leaves is due to which pigment?",
+        "options": ["हीमोग्लोबिन / Hemoglobin", "क्लोरोफिल (पर्णहरित) / Chlorophyll", "कैरोटीन / Carotene", "एंथोसायनिन / Anthocyanin"],
         "correct": "B",
-        "explanation": "पत्तियों में क्लोरोप्लास्ट (हरितलवक) के अंदर क्लोरोफिल वर्णक पाया जाता है, जो सूर्य के प्रकाश को अवशोषित कर प्रकाश संश्लेषण करता है और हरा रंग प्रदान करता है।"
+        "explanation": "पत्तियों में क्लोरोफिल वर्णक पाया जाता है जो सूर्य के प्रकाश को अवशोषित करता है और हरा रंग प्रदान करता है।"
     },
     {
         "q_num": 30,
-        "subject": "विज्ञान (जीव)",
-        "question": "रक्त में ऑक्सीजन का परिवहन करने वाला लाल वर्णक कौन-सा है?",
-        "options": ["श्वेत रुधिर कणिका (WBC)", "हीमोग्लोबिन", "प्लेटलेट्स", "फाइब्रिनोजेन"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "रक्त में ऑक्सीजन का परिवहन करने वाला लाल वर्णक कौन-सा है?",
+        "question_en": "Which red pigment in blood is responsible for transporting oxygen?",
+        "options": ["WBC", "हीमोग्लोबिन / Hemoglobin", "प्लेटलेट्स / Platelets", "प्लाज्मा / Plasma"],
         "correct": "B",
-        "explanation": "लाल रक्त कोशिकाओं (RBC) में लौहयुक्त प्रोटीन 'हीमोग्लोबिन' पाया जाता है, जो फेफड़ों से ऑक्सीजन लेकर शरीर की सभी कोशिकाओं तक पहुँचाता है।"
+        "explanation": "RBC में उपस्थित हीमोग्लोबिन ऑक्सीजन से जुड़कर ऑक्सीहीमोग्लोबिन बनाकर शरीर में संचरित करता है।"
     },
     {
         "q_num": 31,
-        "subject": "विज्ञान (जीव)",
-        "question": "दूध को दही में बदलने वाले जीवाणु (Bacteria) का क्या नाम है?",
-        "options": ["राइजोबियम", "लैक्टोबैसिलस (Lactobacillus)", "ई-कोलाई", "यीस्ट"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "दूध को दही में बदलने वाले जीवाणु (Bacteria) का क्या नाम है?",
+        "question_en": "What is the name of the bacteria that converts milk into curd?",
+        "options": ["राइजोबियम / Rhizobium", "लैक्टोबैसिलस / Lactobacillus", "ई-कोलाई / E. Coli", "यीस्ट / Yeast"],
         "correct": "B",
-        "explanation": "लैक्टोबैसिलस जीवाणु दूध में उपस्थित लैक्टोज शर्करा को लैक्टिक अम्ल में परिवर्तित कर दूध को दही में जमा देता है।"
+        "explanation": "लैक्टोबैसिलस जीवाणु दूध की शर्करा को लैक्टिक अम्ल में बदलकर दूध को दही में जमा देता है।"
     },
     {
         "q_num": 32,
-        "subject": "विज्ञान (जीव)",
-        "question": "मानव शरीर की सबसे बड़ी ग्रंथि (Largest Gland) कौन-सी है?",
-        "options": ["अग्न्याशय (Pancreas)", "यकृत (लिवर - Liver)", "थायरॉयड ग्रंथि", "पीयूष ग्रंथि"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "मानव शरीर की सबसे बड़ी ग्रंथि (Largest Gland) कौन-सी है?",
+        "question_en": "Which is the largest gland in the human body?",
+        "options": ["अग्न्याशय / Pancreas", "यकृत (लिवर) / Liver", "थायरॉयड / Thyroid", "पीयूष / Pituitary"],
         "correct": "B",
-        "explanation": "यकृत (Liver) मानव शरीर की सबसे बड़ी पाचक ग्रंथि है, जो पित्त रस (Bile Juice) का स्राव करती है और इसका भार लगभग 1.5 किग्रा होता है।"
+        "explanation": "यकृत (Liver) मानव शरीर की सबसे बड़ी पाचक ग्रंथि है (भार लगभग 1.5 किग्रा)।"
     },
     {
         "q_num": 33,
-        "subject": "विज्ञान (जीव)",
-        "question": "पौधों में जड़ों द्वारा अवशोषित जल एवं खनिजों का संवहन पत्तियों तक किस ऊतक द्वारा होता है?",
-        "options": ["जाइलम (Xylem)", "फ्लोएम (Phloem)", "मृदूतक", "दृढ़ोतक"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "पौधों में जड़ों द्वारा अवशोषित जल एवं खनिजों का संवहन किस ऊतक द्वारा होता है?",
+        "question_en": "Which tissue transports water and minerals absorbed by roots in plants?",
+        "options": ["जाइलम / Xylem", "फ्लोएम / Phloem", "मृदूतक / Parenchyma", "दृढ़ोतक / Sclerenchyma"],
         "correct": "A",
-        "explanation": "जाइलम (Xylem) ऊतक जड़ों से जल और खनिज लवणों को तने के माध्यम से पत्तियों तक पहुँचाता है। फ्लोएम पत्तियों द्वारा निर्मित भोजन का संवहन करता है।"
+        "explanation": "जाइलम (Xylem) जल का संवहन करता है, जबकि फ्लोएम (Phloem) भोजन का संवहन करता है।"
     },
     {
         "q_num": 34,
-        "subject": "विज्ञान (जीव)",
-        "question": "मलेरिया रोग का वाहक कौन-सा कीट है?",
-        "options": ["मादा एडीज मच्छर", "मादा एनोफेलीज मच्छर", "घरेलू मक्खी", "खटमल"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "मलेरिया रोग का वाहक कौन-सा कीट है?",
+        "question_en": "Which insect is the vector of malaria disease?",
+        "options": ["मादा एडीज / Female Aedes", "मादा एनोफेलीज / Female Anopheles", "घरेलू मक्खी / Housefly", "खटमल / Bedbug"],
         "correct": "B",
-        "explanation": "मादा एनोफेलीज (Anopheles) मच्छर प्लाज्मोडियम नामक प्रोटोजोआ परजीवी को एक व्यक्ति से दूसरे में पहुँचाती है, जिससे मलेरिया रोग होता है।"
+        "explanation": "मादा एनोफेलीज मच्छर प्लाज्मोडियम परजीवी को फैलाकर मलेरिया रोग उत्पन्न करती है।"
     },
     {
         "q_num": 35,
-        "subject": "विज्ञान (जीव)",
-        "question": "प्रकाश संश्लेषण (Photosynthesis) की क्रिया में पौधे कौन-सी गैस वायुमंडल से ग्रहण करते हैं और कौन-सी गैस छोड़ते हैं?",
-        "options": ["CO₂ ग्रहण करते हैं और O₂ छोड़ते हैं", "O₂ ग्रहण करते हैं और CO₂ छोड़ते हैं", "नाइट्रोजन ग्रहण करते हैं", "केवल जलवाष्प छोड़ते हैं"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "प्रकाश संश्लेषण क्रिया में पौधे कौन-सी गैस ग्रहण करते हैं और कौन-सी छोड़ते हैं?",
+        "question_en": "In photosynthesis, plants take in which gas and release which gas?",
+        "options": ["CO₂ ग्रहण, O₂ विमुक्त / In CO₂, Out O₂", "O₂ ग्रहण, CO₂ विमुक्त / In O₂, Out CO₂", "नाइट्रोजन ग्रहण / Nitrogen", "केवल जलवाष्प / Water vapor"],
         "correct": "A",
-        "explanation": "पौधे सूर्य के प्रकाश व क्लोरोफिल की उपस्थिति में CO₂ और जल से ग्लूकोज बनाते हैं तथा सह-उत्पाद के रूप में प्राणवायु ऑक्सीजन (O₂) गैस विमुक्त करते हैं।"
+        "explanation": "पौधे CO₂ और जल से भोजन बनाते हैं तथा प्राणवायु ऑक्सीजन ($O_2$) विमुक्त करते हैं।"
     },
     {
         "q_num": 36,
-        "subject": "विज्ञान (जीव)",
-        "question": "वायुमंडलीय नाइट्रोजन का मिट्टी में स्थिरीकरण करने वाले जीवाणु का क्या नाम है जो दलहनी फसलों की जड़ों की ग्रंथियों में रहता है?",
-        "options": ["लैक्टोबैसिलस", "राइजोबियम (Rhizobium)", "यीस्ट", "अमीबा"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "दलहनी फसलों की जड़ों की ग्रंथियों में नाइट्रोजन स्थिरीकरण करने वाला जीवाणु कौन-सा है?",
+        "question_en": "Which nitrogen-fixing bacteria lives in root nodules of leguminous plants?",
+        "options": ["लैक्टोबैसिलस / Lactobacillus", "राइजोबियम / Rhizobium", "यीस्ट / Yeast", "अमीबा / Amoeba"],
         "correct": "B",
-        "explanation": "राइजोबियम जीवाणु चना, मटर, अरहर जैसी दलहनी फसलों की जड़ों में सहजीवी के रूप में रहकर वायुमंडलीय नाइट्रोजन को नाइट्रेट में बदलकर भूमि को उपजाऊ बनाता है।"
+        "explanation": "राइजोबियम (Rhizobium) दलहनी पौधों की जड़ों में रहकर वायुमंडलीय नाइट्रोजन को नाइट्रेट में बदलता है।"
     },
     {
         "q_num": 37,
-        "subject": "विज्ञान (जीव)",
-        "question": "मानव शरीर में रुधिर का थक्का (Blood Clotting) जमने में कौन-सी रुधिर कणिकाएं सहायक होती हैं?",
-        "options": ["RBC (लाल रक्त कणिकाएं)", "WBC (श्वेत रक्त कणिकाएं)", "रक्त प्लेटलेट्स (Thrombocytes)", "प्लाज्मा"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "रक्त का थक्का (Blood Clotting) जमाने में कौन-सी रुधिर कणिकाएं सहायक होती हैं?",
+        "question_en": "Which blood cells help in blood clotting?",
+        "options": ["RBC", "WBC", "रक्त प्लेटलेट्स / Platelets", "प्लाज्मा / Plasma"],
         "correct": "C",
-        "explanation": "चोट लगने पर रक्त का बहना रोकने और थक्का जमाने में प्लेटलेट्स (Platelets) तथा विटामिन-के मुख्य भूमिका निभाते हैं।"
+        "explanation": "रक्त प्लेटलेट्स (Thrombocytes) चोट लगने पर रक्त का थक्का जमाकर रक्तस्राव रोकती हैं।"
     },
     {
         "q_num": 38,
-        "subject": "विज्ञान (जीव)",
-        "question": "रिकेट्स (सूखा रोग) किस विटामिन की कमी के कारण होता है?",
-        "options": ["विटामिन A", "विटामिन B", "विटामिन C", "विटामिन D"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "रिकेट्स (सूखा रोग) किस विटामिन की कमी के कारण होता है?",
+        "question_en": "Rickets is caused by the deficiency of which vitamin?",
+        "options": ["विटामिन A / Vitamin A", "विटामिन B / Vitamin B", "विटामिन C / Vitamin C", "विटामिन D / Vitamin D"],
         "correct": "D",
-        "explanation": "विटामिन D की कमी से बच्चों की हड्डियां कमजोर व टेढ़ी हो जाती हैं जिसे रिकेट्स कहते हैं। सूर्य का प्रकाश विटामिन D का प्राकृतिक स्रोत है।"
+        "explanation": "विटामिन D की कमी से हड्डियों का रोग रिकेट्स होता है। सूर्य का प्रकाश इसका प्राकृतिक स्रोत है।"
     },
     {
         "q_num": 39,
-        "subject": "विज्ञान (जीव)",
-        "question": "विलुप्त एवं संकटापन्न प्रजातियों का रिकॉर्ड किस पुस्तक में रखा जाता है?",
-        "options": ["रेड डाटा बुक (Red Data Book)", "ग्रीन बुक", "ब्लू बुक", "येलो बुक"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "संकटापन्न एवं विलुप्त प्रजातियों का रिकॉर्ड किस पुस्तक में रखा जाता है?",
+        "question_en": "The record of endangered and extinct species is maintained in which book?",
+        "options": ["रेड डाटा बुक / Red Data Book", "ग्रीन बुक / Green Book", "ब्लू बुक / Blue Book", "येलो बुक / Yellow Book"],
         "correct": "A",
-        "explanation": "IUCN द्वारा संकटग्रस्त और विलुप्त होने की कगार पर पहुँचे जीव-जंतुओं और वनस्पतियों की सूची 'रेड डाटा बुक' में प्रकाशित की जाती है।"
+        "explanation": "IUCN द्वारा संकटग्रस्त जीवों की सूची 'रेड डाटा बुक (Red Data Book)' में दर्ज की जाती है।"
     },
     {
         "q_num": 40,
-        "subject": "विज्ञान (जीव)",
-        "question": "अमीबा किस विधि द्वारा अपना भोजन ग्रहण करता है?",
-        "options": ["पादाभ (स्यूडोपोडिया) द्वारा", "मुख द्वारा", "स्पर्शक द्वारा", "क्लोरोफिल द्वारा"],
+        "subject": "विज्ञान (जीव) / Biology",
+        "question_hi": "अमीबा किस संरचना द्वारा अपना भोजन ग्रहण करता है?",
+        "question_en": "By which structure does Amoeba capture its food?",
+        "options": ["पादाभ / Pseudopodia", "मुख / Mouth", "स्पर्शक / Tentacles", "क्लोरोफिल / Chlorophyll"],
         "correct": "A",
-        "explanation": "एककोशिकीय जीव अमीबा अपने कूटपादों या पादाभों (Pseudopodia) को भोजन के चारों ओर फैलाकर खाद्य धानी (Food Vacuole) में बंद कर भोजन ग्रहण करता है।"
+        "explanation": "अमीबा अपने कूटपाद या पादाभ (Pseudopodia) द्वारा भोजन घेरकर खाद्य धानी में ग्रहण करता है।"
     },
 
     # =========================================================================
@@ -347,123 +387,138 @@ UP_SAT_QUESTIONS = [
     # =========================================================================
     {
         "q_num": 41,
-        "subject": "इतिहास",
-        "question": "1857 की ऐतिहासिक क्रांति की शुरुआत उत्तर प्रदेश के किस नगर से हुई थी?",
-        "options": ["झांसी", "मेरठ (10 मई 1857)", "लखनऊ", "कानपुर"],
+        "subject": "इतिहास / History",
+        "question_hi": "1857 की ऐतिहासिक क्रांति की शुरुआत उत्तर प्रदेश के किस नगर से हुई थी?",
+        "question_en": "The historic Revolt of 1857 started from which city of Uttar Pradesh?",
+        "options": ["झांसी / Jhansi", "मेरठ (10 मई 1857) / Meerut", "लखनऊ / Lucknow", "कानपुर / Kanpur"],
         "correct": "B",
-        "explanation": "1857 के प्रथम स्वतंत्रता संग्राम का औपचारिक बिगुल 10 मई 1857 को उत्तर प्रदेश के मेरठ छावनी के सैनिकों द्वारा फूंका गया था।"
+        "explanation": "10 मई 1857 को उत्तर प्रदेश के मेरठ छावनी से प्रथम स्वतंत्रता संग्राम का औपचारिक बिगुल फूंका गया था।"
     },
     {
         "q_num": 42,
-        "subject": "इतिहास",
-        "question": "1857 के संग्राम में लखनऊ से विद्रोह का नेतृत्व किसने किया था?",
-        "options": ["रानी लक्ष्मीबाई", "बेगम हज़रत महल", "नाना साहेब", "कुँवर सिंह"],
+        "subject": "इतिहास / History",
+        "question_hi": "1857 के संग्राम में लखनऊ (अवध) से विद्रोह का नेतृत्व किसने किया था?",
+        "question_en": "Who led the 1857 revolt from Lucknow (Awadh)?",
+        "options": ["रानी लक्ष्मीबाई / Rani Laxmibai", "बेगम हज़रत महल / Begum Hazrat Mahal", "नाना साहेब / Nana Saheb", "कुँवर सिंह / Kunwar Singh"],
         "correct": "B",
-        "explanation": "लखनऊ (अवध) में 1857 की क्रांति का नेतृत्व नवाब वाजिद अली शाह की बेगम हज़रत महल ने अपने अल्पवयस्क पुत्र बिरजिस कादिर को नवाब घोषित करके किया था।"
+        "explanation": "लखनऊ में क्रांति का नेतृत्व बेगम हज़रत महल ने अपने अल्पवयस्क पुत्र बिरजिस कादिर के साथ किया था।"
     },
     {
         "q_num": 43,
-        "subject": "इतिहास",
-        "question": "दिल्ली सल्तनत में 'गुलाम वंश' (Slave Dynasty) का संस्थापक कौन था?",
-        "options": ["इल्तुतमिश", "कुतुबुद्दीन ऐबक (1206 ई.)", "बलबन", "अलाउद्दीन खिलजी"],
+        "subject": "इतिहास / History",
+        "question_hi": "दिल्ली सल्तनत में 'गुलाम वंश' (Slave Dynasty) का संस्थापक कौन था?",
+        "question_en": "Who was the founder of the Slave Dynasty in Delhi Sultanate?",
+        "options": ["इल्तुतमिश / Iltutmish", "कुतुबुद्दीन ऐबक (1206 ई.) / Qutb-ud-din Aibak", "बलबन / Balban", "अलाउद्दीन खिलजी / Alauddin Khalji"],
         "correct": "B",
-        "explanation": "मुहम्मद गोरी की मृत्यु के बाद 1206 ई. में उसके गुलाम सेनापति कुतुबुद्दीन ऐबक ने दिल्ली सल्तनत और गुलाम वंश की नींव रखी थी।"
+        "explanation": "1206 ई. में कुतुबुद्दीन ऐबक ने दिल्ली सल्तनत और गुलाम वंश की नींव रखी थी।"
     },
     {
         "q_num": 44,
-        "subject": "इतिहास",
-        "question": "दिल्ली सल्तनत की प्रथम एवं एकमात्र महिला शासिका कौन थी?",
-        "options": ["चांद बीबी", "रज़िया सुल्तान", "नूरजहाँ", "मुमताज महल"],
+        "subject": "इतिहास / History",
+        "question_hi": "दिल्ली सल्तनत की प्रथम एवं एकमात्र महिला शासिका कौन थी?",
+        "question_en": "Who was the first and only female ruler of Delhi Sultanate?",
+        "options": ["चांद बीबी / Chand Bibi", "रज़िया सुल्तान (1236 ई.) / Razia Sultana", "नूरजहाँ / Nur Jahan", "मुमताज महल / Mumtaz Mahal"],
         "correct": "B",
-        "explanation": "इल्तुतमिश की सुपुत्री रज़िया सुल्तान 1236 ई. में दिल्ली के तख्त पर बैठी। वह भारत की पहली और अंतिम महिला मुस्लिम शासिका थीं।"
+        "explanation": "इल्तुतमिश की सुपुत्री रज़िया सुल्तान 1236 ई. में दिल्ली के तख्त पर बैठने वाली प्रथम महिला शासिका थीं।"
     },
     {
         "q_num": 45,
-        "subject": "इतिहास",
-        "question": "पानीपत का प्रथम युद्ध (1526 ई.) किसके बीच लड़ा गया था?",
-        "options": ["अकबर और हेमू", "बाबर और इब्राहिम लोदी", "हुमायूँ और शेरशाह सूरी", "बाबर और राणा सांगा"],
+        "subject": "इतिहास / History",
+        "question_hi": "पानीपत का प्रथम युद्ध (1526 ई.) किसके बीच लड़ा गया था?",
+        "question_en": "Between whom was the First Battle of Panipat (1526 AD) fought?",
+        "options": ["अकबर और हेमू / Akbar & Hemu", "बाबर और इब्राहिम लोदी / Babur & Ibrahim Lodi", "हुमायूँ और शेरशाह / Humayun & Sher Shah", "बाबर और राणा सांगा / Babur & Rana Sanga"],
         "correct": "B",
-        "explanation": "21 अप्रैल 1526 को पानीपत के प्रथम युद्ध में बाबर ने दिल्ली के लोदी सुल्तान इब्राहिम लोदी को हराकर भारत में मुगल साम्राज्य की स्थापना की थी।"
+        "explanation": "21 अप्रैल 1526 को पानीपत के प्रथम युद्ध में बाबर ने इब्राहिम लोदी को हराकर मुगल साम्राज्य स्थापित किया।"
     },
     {
         "q_num": 46,
-        "subject": "इतिहास",
-        "question": "आगरा में यमुना नदी के तट पर विश्वप्रसिद्ध 'ताजमहल' का निर्माण किस मुगल बादशाह ने करवाया था?",
-        "options": ["अकबर", "जहाँगीर", "शाहजहाँ", "औरंगजेब"],
+        "subject": "इतिहास / History",
+        "question_hi": "आगरा में यमुना नदी के तट पर विश्वप्रसिद्ध ताजमहल का निर्माण किस मुगल बादशाह ने करवाया?",
+        "question_en": "Which Mughal Emperor built the world-famous Taj Mahal in Agra?",
+        "options": ["अकबर / Akbar", "जहाँगीर / Jahangir", "शाहजहाँ / Shah Jahan", "औरंगजेब / Aurangzeb"],
         "correct": "C",
-        "explanation": "मुगल बादशाह शाहजहाँ ने अपनी बेगम मुमताज महल की याद में सफेद संगमरमर से भव्य ताजमहल का निर्माण आगरा (उत्तर प्रदेश) में करवाया था।"
+        "explanation": "शाहजहाँ ने अपनी बेगम मुमताज महल की स्मृति में सफेद संगमरमर से ताजमहल का निर्माण आगरा (UP) में करवाया था।"
     },
     {
         "q_num": 47,
-        "subject": "इतिहास",
-        "question": "फतेहपुर सीकरी (आगरा के निकट) में स्थित 'बुलंद दरवाजा' का निर्माण अकबर ने किस विजय के उपलक्ष्य में करवाया था?",
-        "options": ["बंगाल विजय", "गुजरात विजय (1572-73)", "मालवा विजय", "कश्मीर विजय"],
+        "subject": "इतिहास / History",
+        "question_hi": "फतेहपुर सीकरी में 'बुलंद दरवाजा' का निर्माण अकबर ने किस विजय के उपलक्ष्य में करवाया था?",
+        "question_en": "To commemorate which victory did Akbar build the 'Buland Darwaza' at Fatehpur Sikri?",
+        "options": ["बंगाल विजय / Bengal", "गुजरात विजय (1572-73) / Gujarat", "मालवा विजय / Malwa", "कश्मीर विजय / Kashmir"],
         "correct": "B",
-        "explanation": "अकबर ने गुजरात पर ऐतिहासिक विजय प्राप्त करने की स्मृति में फतेहपुर सीकरी में एशिया का सबसे ऊँचा 'बुलंद दरवाजा' बनवाया था।"
+        "explanation": "अकबर ने गुजरात पर विजय प्राप्त करने की स्मृति में फतेहपुर सीकरी में विशाल 'बुलंद दरवाजा' बनवाया था।"
     },
     {
         "q_num": 48,
-        "subject": "इतिहास",
-        "question": "'आर्य समाज' की स्थापना 1875 ई. में किसने की थी तथा 'वेदों की ओर लौटो' का नारा किसने दिया?",
-        "options": ["राजा राममोहन राय", "स्वामी दयानंद सरस्वती", "स्वामी विवेकानंद", "ईश्वरचंद्र विद्यासागर"],
+        "subject": "इतिहास / History",
+        "question_hi": "'आर्य समाज' की स्थापना 1875 ई. में किसने की तथा 'वेदों की ओर लौटो' का नारा किसने दिया?",
+        "question_en": "Who founded 'Arya Samaj' in 1875 and gave the slogan 'Back to the Vedas'?",
+        "options": ["राजा राममोहन राय / Raja Ram Mohan Roy", "स्वामी दयानंद सरस्वती / Swami Dayanand Saraswati", "स्वामी विवेकानंद / Swami Vivekananda", "ईश्वरचंद्र विद्यासागर / Ishwar Chandra Vidyasagar"],
         "correct": "B",
-        "explanation": "स्वामी दयानंद सरस्वती ने 1875 में बंबई में आर्य समाज की स्थापना की, 'सत्यार्थ प्रकाश' ग्रंथ लिखा और 'वेदों की ओर लौटो' का अमर संदेश दिया।"
+        "explanation": "स्वामी दयानंद सरस्वती ने 1875 में आर्य समाज की स्थापना की और 'वेदों की ओर लौटो' का संदेश दिया।"
     },
     {
         "q_num": 49,
-        "subject": "इतिहास",
-        "question": "सती प्रथा का अंत कराने में किस भारतीय समाज सुधारक ने लॉर्ड विलियम बेंटिक के साथ प्रमुख भूमिका निभाई?",
-        "options": ["स्वामी विवेकानंद", "राजा राममोहन राय (1829 ई.)", "दयानंद सरस्वती", "गोपाल कृष्ण गोखले"],
+        "subject": "इतिहास / History",
+        "question_hi": "सती प्रथा का अंत कराने में किस भारतीय समाज सुधारक ने प्रमुख भूमिका निभाई?",
+        "question_en": "Which Indian social reformer played a key role in abolishing the Sati system in 1829?",
+        "options": ["स्वामी विवेकानंद / Swami Vivekananda", "राजा राममोहन राय (1829 ई.) / Raja Ram Mohan Roy", "दयानंद सरस्वती / Dayanand Saraswati", "गोखले / Gokhale"],
         "correct": "B",
-        "explanation": "राजा राममोहन राय (ब्रह्म समाज के संस्थापक) के अथक प्रयासों से ब्रिटिश सरकार ने 1829 में धारा 17 के तहत सती प्रथा को गैर-कानूनी घोषित किया।"
+        "explanation": "राजा राममोहन राय के प्रयासों से लॉर्ड विलियम बेंटिक ने 1829 में सती प्रथा निषेध कानून पारित किया।"
     },
     {
         "q_num": 50,
-        "subject": "इतिहास",
-        "question": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष और किसके द्वारा की गई थी?",
-        "options": ["1885 ई. (ए.ओ. ह्यूम द्वारा)", "1905 ई. (लॉर्ड कर्जन द्वारा)", "1919 ई. (गांधीजी द्वारा)", "1857 ई. (मंगल पांडे द्वारा)"],
+        "subject": "इतिहास / History",
+        "question_hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष और किसके द्वारा की गई थी?",
+        "question_en": "In which year and by whom was the Indian National Congress founded?",
+        "options": ["1885 ई. (ए.ओ. ह्यूम द्वारा) / 1885 by A.O. Hume", "1905 ई. (कर्जन द्वारा)", "1919 ई. (गांधीजी द्वारा)", "1857 ई. (मंगल पांडे द्वारा)"],
         "correct": "A",
-        "explanation": "भारतीय राष्ट्रीय कांग्रेस (INC) की स्थापना 28 दिसंबर 1885 को बॉम्बे में अवकाशप्राप्त ब्रिटिश आईसीएस अधिकारी एलन ऑक्टेवियन ह्यूम (A.O. Hume) ने की थी।"
+        "explanation": "भारतीय राष्ट्रीय कांग्रेस (INC) की स्थापना 28 दिसंबर 1885 को बॉम्बे में ए.ओ. ह्यूम द्वारा की गई थी।"
     },
     {
         "q_num": 51,
-        "subject": "इतिहास",
-        "question": "जलियांवाला बाग नरसंहार किस तिथि और वर्ष को अमृतसर में घटित हुआ था?",
-        "options": ["13 अप्रैल 1919", "15 अगस्त 1920", "26 जनवरी 1930", "10 मई 1857"],
+        "subject": "इतिहास / History",
+        "question_hi": "जलियांवाला बाग नरसंहार किस तिथि और वर्ष को अमृतसर में घटित हुआ था?",
+        "question_en": "On which date and year did the Jallianwala Bagh massacre take place in Amritsar?",
+        "options": ["13 अप्रैल 1919 / 13 April 1919", "15 अगस्त 1920", "26 जनवरी 1930", "10 मई 1857"],
         "correct": "A",
-        "explanation": "13 अप्रैल 1919 को बैसाखी के दिन अमृतसर के जलियांवाला बाग में रॉलेट एक्ट के विरोध में एकत्र निहत्थी सभा पर जनरल डायर ने अंधाधुंध गोलियां चलवाई थीं।"
+        "explanation": "13 अप्रैल 1919 को बैसाखी के दिन जनरल डायर ने अमृतसर के जलियांवाला बाग में अंधाधुंध गोलियां चलवाई थीं।"
     },
     {
         "q_num": 52,
-        "subject": "इतिहास",
-        "question": "उत्तर प्रदेश के गोरखपुर जिले में 'चौरी-चौरा कांड' कब हुआ, जिसके बाद गांधीजी ने असहयोग आंदोलन स्थगित कर दिया?",
-        "options": ["फरवरी 1922", "अगस्त 1920", "मार्च 1930", "अगस्त 1942"],
+        "subject": "इतिहास / History",
+        "question_hi": "उत्तर प्रदेश के गोरखपुर जिले में 'चौरी-चौरा कांड' कब हुआ जिससे असहयोग आंदोलन स्थगित हुआ?",
+        "question_en": "When did the 'Chauri Chaura' incident take place in Gorakhpur (UP)?",
+        "options": ["फरवरी 1922 (4 Feb 1922)", "अगस्त 1920", "मार्च 1930", "अगस्त 1942"],
         "correct": "A",
-        "explanation": "4 फरवरी 1922 को चौरी-चौरा में उग्र भीड़ द्वारा पुलिस थाने में आग लगा देने से 22 पुलिसकर्मी मारे गए थे। इस हिंसा से दुखी होकर गांधीजी ने 12 फरवरी 1922 को असहयोग आंदोलन वापस ले लिया।"
+        "explanation": "4 फरवरी 1922 को चौरी-चौरा में हिंसा के बाद गांधीजी ने 12 फरवरी 1922 को असहयोग आंदोलन वापस ले लिया।"
     },
     {
         "q_num": 53,
-        "subject": "इतिहास",
-        "question": "काकोरी ट्रेन एक्शन (काकोरी कांड) किस वर्ष लखनऊ के निकट घटित हुआ था?",
-        "options": ["1920", "9 अगस्त 1925", "1931", "1942"],
+        "subject": "इतिहास / History",
+        "question_hi": "काकोरी ट्रेन एक्शन (काकोरी कांड) किस वर्ष लखनऊ के निकट घटित हुआ था?",
+        "question_en": "In which year did the Kakori Train Action take place near Lucknow?",
+        "options": ["1920", "9 अगस्त 1925 / 9 August 1925", "1931", "1942"],
         "correct": "B",
-        "explanation": "9 अगस्त 1925 को रामप्रसाद बिस्मिल, अशफाक उल्ला खां, राजेंद्र लाहिड़ी और चंद्रशेखर आजाद के नेतृत्व में एचआरए के क्रांतिकारियों ने काकोरी में सरकारी खजाने से भरी ट्रेन को लूटा था।"
+        "explanation": "9 अगस्त 1925 को रामप्रसाद बिस्मिल, अशफाक उल्ला खां, चंद्रशेखर आजाद आदि ने काकोरी में सरकारी खजाना लूटा था।"
     },
     {
         "q_num": 54,
-        "subject": "इतिहास",
-        "question": "महात्मा गांधी ने 'करो या मरो' (Do or Die) का नारा किस ऐतिहासिक आंदोलन के दौरान दिया था?",
-        "options": ["असहयोग आंदोलन", "सविनय अवज्ञा आंदोलन", "भारत छोड़ो आंदोलन (1942)", "चंपारण सत्याग्रह"],
+        "subject": "इतिहास / History",
+        "question_hi": "गांधीजी ने 'करो या मरो' (Do or Die) का नारा किस ऐतिहासिक आंदोलन में दिया था?",
+        "question_en": "In which movement did Mahatma Gandhi give the slogan 'Do or Die'?",
+        "options": ["असहयोग आंदोलन / Non-Cooperation", "सविनय अवज्ञा / Civil Disobedience", "भारत छोड़ो आंदोलन (1942) / Quit India", "चंपारण सत्याग्रह / Champaran"],
         "correct": "C",
-        "explanation": "8 अगस्त 1942 को बंबई के ग्वालिया टैंक मैदान से 'भारत छोड़ो आंदोलन' का प्रस्ताव पारित करते हुए गांधीजी ने देशवासियों को 'करो या मरो' का मंत्र दिया था।"
+        "explanation": "8 अगस्त 1942 को भारत छोड़ो आंदोलन के दौरान गांधीजी ने देश को 'करो या मरो' का नारा दिया था।"
     },
     {
         "q_num": 55,
-        "subject": "इतिहास",
-        "question": "गौतम बुद्ध ने अपना पहला उपदेश (धर्मचक्रप्रवर्तन) उत्तर प्रदेश के किस स्थान पर दिया था?",
-        "options": ["कुशीनगर", "सारनाथ (वाराणसी के निकट)", "श्रावस्ती", "कौशाम्बी"],
+        "subject": "इतिहास / History",
+        "question_hi": "गौतम बुद्ध ने अपना पहला उपदेश (धर्मचक्रप्रवर्तन) उत्तर प्रदेश के किस स्थान पर दिया था?",
+        "question_en": "Where did Lord Buddha deliver his first sermon (Dharmachakrapravartan) in UP?",
+        "options": ["कुशीनगर / Kushinagar", "सारनाथ (वाराणसी) / Sarnath", "श्रावस्ती / Shravasti", "कौशाम्बी / Kaushambi"],
         "correct": "B",
-        "explanation": "बोधगया में ज्ञान प्राप्ति के पश्चात भगवान बुद्ध ने अपना पहला उपदेश पाँच संन्यासियों को सारनाथ (ऋषिपत्तन, वाराणसी) में दिया था, जिसे बौद्ध परंपरा में धर्मचक्रप्रवर्तन कहा जाता है।"
+        "explanation": "ज्ञान प्राप्ति के बाद भगवान बुद्ध ने पहला उपदेश सारनाथ (वाराणसी के निकट) में दिया था।"
     },
 
     # =========================================================================
@@ -471,123 +526,138 @@ UP_SAT_QUESTIONS = [
     # =========================================================================
     {
         "q_num": 56,
-        "subject": "भूगोल",
-        "question": "उत्तर प्रदेश का एकमात्र 'राष्ट्रीय उद्यान' (National Park) कौन-सा है और किस जिले में स्थित है?",
-        "options": ["जिम कॉर्बेट (नैनीताल)", "दुधवा राष्ट्रीय उद्यान (लखीमपुर खीरी)", "काजीरंगा (असम)", "गिर राष्ट्रीय उद्यान (गुजरात)"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "उत्तर प्रदेश का एकमात्र 'राष्ट्रीय उद्यान' कौन-सा है और किस जिले में स्थित है?",
+        "question_en": "Which is the only National Park of Uttar Pradesh and in which district is it located?",
+        "options": ["जिम कॉर्बेट / Jim Corbett", "दुधवा राष्ट्रीय उद्यान (लखीमपुर खीरी) / Dudhwa", "काजीरंगा / Kaziranga", "गिर राष्ट्रीय उद्यान / Gir"],
         "correct": "B",
-        "explanation": "दुधवा राष्ट्रीय उद्यान उत्तर प्रदेश के लखीमपुर खीरी जिले में स्थित है। यह तराई क्षेत्र में बारहसिंगा और बाघों के संरक्षण के लिए विश्वप्रसिद्ध है।"
+        "explanation": "दुधवा राष्ट्रीय उद्यान उत्तर प्रदेश के लखीमपुर खीरी जिले में स्थित है (बाघ व बारहसिंगा हेतु प्रसिद्ध)।"
     },
     {
         "q_num": 57,
-        "subject": "भूगोल",
-        "question": "उत्तर प्रदेश का एकमात्र 'परमाणु ऊर्जा संयंत्र' (Atomic Power Station) कहाँ स्थित है?",
-        "options": ["ओबरा (सोनभद्र)", "नरोरा (बुलंदशहर)", "रिहंद", "अनपरा"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "उत्तर प्रदेश का एकमात्र परमाणु ऊर्जा संयंत्र (Atomic Power Station) कहाँ स्थित है?",
+        "question_en": "Where is the only Nuclear Power Station of Uttar Pradesh situated?",
+        "options": ["ओबरा (सोनभद्र) / Obra", "नरोरा (बुलंदशहर) / Narora", "रिहंद / Rihand", "अनपरा / Anpara"],
         "correct": "B",
-        "explanation": "उत्तर प्रदेश के बुलंदशहर जिले के नरोरा में गंगा नदी के तट पर नरोरा परमाणु विद्युत गृह (Narora Atomic Power Station) स्थापित है।"
+        "explanation": "उत्तर प्रदेश के बुलंदशहर जिले के नरोरा में गंगा नदी के तट पर परमाणु ऊर्जा संयंत्र स्थापित है।"
     },
     {
         "q_num": 58,
-        "subject": "भूगोल",
-        "question": "वायुमंडल की किस परत में मौसम संबंधी सभी घटनाएं (बादल, वर्षा, आंधी, तूफान) घटित होती हैं?",
-        "options": ["समतापमंडल", "क्षोभमंडल (Troposphere)", "मध्यमंडल", "आयनमंडल"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "मौसम संबंधी सभी घटनाएं (बादल, वर्षा, तूफान) वायुमंडल की किस परत में होती हैं?",
+        "question_en": "All weather phenomena (clouds, rain, storms) occur in which layer of atmosphere?",
+        "options": ["समतापमंडल / Stratosphere", "क्षोभमंडल / Troposphere", "मध्यमंडल / Mesosphere", "आयनमंडल / Ionosphere"],
         "correct": "B",
-        "explanation": "क्षोभमंडल वायुमंडल की सबसे निचली परत है (औसत ऊँचाई 13 किमी)। वायुमंडल का 75% द्रव्यमान यहीं है और समस्त मौसमी परिवर्तन इसी परत में होते हैं।"
+        "explanation": "क्षोभमंडल (Troposphere) सबसे निचली परत है जहाँ मौसम संबंधी सभी परिवर्तन घटित होते हैं।"
     },
     {
         "q_num": 59,
-        "subject": "भूगोल",
-        "question": "हवाई जहाज उड़ाने के लिए वायुमंडल की कौन-सी परत सर्वाधिक आदर्श मानी जाती है क्योंकि इसमें ओजोन गैस भी पाई जाती है?",
-        "options": ["क्षोभमंडल", "समतापमंडल (Stratosphere)", "बहिर्मंडल", "तापमंडल"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "हवाई जहाज उड़ाने हेतु कौन-सी परत आदर्श है जिसमें ओजोन गैस भी पाई जाती है?",
+        "question_en": "Which atmospheric layer is ideal for flying aircraft and contains ozone?",
+        "options": ["क्षोभमंडल / Troposphere", "समतापमंडल / Stratosphere", "बहिर्मंडल / Exosphere", "तापमंडल / Thermosphere"],
         "correct": "B",
-        "explanation": "समतापमंडल में बादलों और मौसम की हलचलों का अभाव रहता है तथा हवा शांत होती है, जिससे जेट विमान उड़ाना सुगम होता है। इसमें पराबैंगनी किरणों को सोखने वाली ओजोन परत भी स्थित है।"
+        "explanation": "समतापमंडल (Stratosphere) शांत मौसम व ओजोन परत के कारण विमान उड़ाने हेतु आदर्श है।"
     },
     {
         "q_num": 60,
-        "subject": "भूगोल",
-        "question": "सौरमंडल का सबसे बड़ा ग्रह कौन-सा है?",
-        "options": ["शनि", "बृहस्पति (Jupiter)", "मंगल", "पृथ्वी"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "सौरमंडल का सबसे बड़ा ग्रह कौन-सा है?",
+        "question_en": "Which is the largest planet in our Solar System?",
+        "options": ["शनि / Saturn", "बृहस्पति / Jupiter", "मंगल / Mars", "पृथ्वी / Earth"],
         "correct": "B",
-        "explanation": "बृहस्पति (Jupiter) सौरमंडल का सबसे विशालकाय ग्रह है। इसका द्रव्यमान सौरमंडल के अन्य सभी ग्रहों के कुल द्रव्यमान से ढाई गुना अधिक है।"
+        "explanation": "बृहस्पति (Jupiter) सौरमंडल का सबसे विशालकाय ग्रह है।"
     },
     {
         "q_num": 61,
-        "subject": "भूगोल",
-        "question": "पृथ्वी का अपने अक्ष पर 24 घंटे में एक चक्कर पूरा करना क्या कहलाता है, जिससे दिन और रात होते हैं?",
-        "options": ["परिक्रमण (Revolution)", "घूर्णन या दैनिक गति (Rotation)", "अपसौर", "उपसौर"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "पृथ्वी की दैनिक गति (घूर्णन / Rotation) से क्या होता है?",
+        "question_en": "What is caused by the Earth's daily motion (Rotation) on its axis?",
+        "options": ["ऋतु परिवर्तन / Seasons", "दिन और रात / Day and Night", "सूर्य ग्रहण / Solar Eclipse", "चंद्र ग्रहण / Lunar Eclipse"],
         "correct": "B",
-        "explanation": "पृथ्वी का अपनी धुरी पर पश्चिम से पूर्व की ओर घूमना घूर्णन (Rotation) कहलाता है, जिससे दिन और रात होते हैं। सूर्य के चारों ओर 365¼ दिन में चक्कर लगाना परिक्रमण कहलाता है जिससे ऋतुएं बदलती हैं।"
+        "explanation": "पृथ्वी का अपने अक्ष पर 24 घंटे में घूमना घूर्णन कहलाता है, जिससे दिन और रात होते हैं।"
     },
     {
         "q_num": 62,
-        "subject": "भूगोल",
-        "question": "भारत की सबसे लम्बी नदी कौन-सी है जो उत्तर प्रदेश के कई प्रमुख नगरों से होकर गुजरती है?",
-        "options": ["यमुना", "गंगा (2525 किमी)", "गोदावरी", "ब्रह्मपुत्र"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "भारत की सबसे लम्बी नदी कौन-सी है जो उत्तर प्रदेश से होकर गुजरती है?",
+        "question_en": "Which is the longest river in India that flows through Uttar Pradesh?",
+        "options": ["यमुना / Yamuna", "गंगा (2525 किमी) / Ganga", "गोदावरी / Godavari", "ब्रह्मपुत्र / Brahmaputra"],
         "correct": "B",
-        "explanation": "गंगा भारत की राष्ट्रीय नदी और सबसे लम्बी नदी (2525 किमी) है। यह गंगोत्री हिमनद से निकलकर उत्तराखंड, उत्तर प्रदेश, बिहार, पं. बंगाल से होकर बंगाल की खाड़ी में गिरती है।"
+        "explanation": "गंगा भारत की राष्ट्रीय नदी तथा सबसे लम्बी नदी (2525 किमी) है।"
     },
     {
         "q_num": 63,
-        "subject": "भूगोल",
-        "question": "गंगा, यमुना और अदृश्य सरस्वती का पवित्र 'त्रिवेणी संगम' उत्तर प्रदेश के किस ऐतिहासिक नगर में स्थित है?",
-        "options": ["वाराणसी", "प्रयागराज (इलाहाबाद)", "मथुरा", "अयोध्या"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "गंगा, यमुना और सरस्वती का पवित्र 'त्रिवेणी संगम' उत्तर प्रदेश के किस नगर में स्थित है?",
+        "question_en": "In which city of UP is the sacred 'Triveni Sangam' of Ganga, Yamuna & Saraswati located?",
+        "options": ["वाराणसी / Varanasi", "प्रयागराज / Prayagraj", "मथुरा / Mathura", "अयोध्या / Ayodhya"],
         "correct": "B",
-        "explanation": "उत्तर प्रदेश के तीर्थराज प्रयागराज में गंगा, यमुना और पौराणिक सरस्वती नदियों का संगम स्थल है, जहाँ विश्वप्रसिद्ध महाकुंभ मेला आयोजित होता है।"
+        "explanation": "तीर्थराज प्रयागराज (इलाहाबाद) में त्रिवेणी संगम स्थित है जहाँ कुंभ मेला लगता है।"
     },
     {
         "q_num": 64,
-        "subject": "भूगोल",
-        "question": "भारत का प्रामाणिक समय (IST) किस देशांतर रेखा से निर्धारित किया जाता है जो प्रयागराज (नैनी) से गुजरती है?",
-        "options": ["80° पूर्वी देशांतर", "82°30' पूर्वी देशांतर (82.5° E)", "90° पूर्वी देशांतर", "0° देशांतर"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "भारत का प्रामाणिक समय (IST) किस देशांतर रेखा से निर्धारित किया जाता है?",
+        "question_en": "The Indian Standard Time (IST) is determined along which longitude?",
+        "options": ["80° E", "82°30' E (82.5° पूर्वी देशांतर)", "90° E", "0° देशांतर / Prime Meridian"],
         "correct": "B",
-        "explanation": "भारत का मानक समय 82°30' पूर्वी देशांतर रेखा से माना जाता है, जो प्रयागराज के पास मिर्जापुर/नैनी से गुजरती है। यह ग्रीनविच समय से 5 घंटे 30 मिनट आगे है।"
+        "explanation": "82°30' पूर्वी देशांतर रेखा प्रयागराज (मिर्जापुर/नैनी) से गुजरती है और GMT से 5:30 घंटे आगे है।"
     },
     {
         "q_num": 65,
-        "subject": "भूगोल",
-        "question": "कपास की खेती के लिए सर्वाधिक उपयुक्त मिट्टी कौन-सी मानी जाती है?",
-        "options": ["जलोढ़ मिट्टी", "काली मिट्टी (रेगुर मिट्टी)", "लाल मिट्टी", "लैटेराइट मिट्टी"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "कपास की खेती के लिए सर्वाधिक उपयुक्त मिट्टी कौन-सी मानी जाती है?",
+        "question_en": "Which soil is considered most suitable for cotton cultivation?",
+        "options": ["जलोढ़ मिट्टी / Alluvial", "काली मिट्टी (रेगुर) / Black Soil", "लाल मिट्टी / Red Soil", "लैटेराइट मिट्टी / Laterite"],
         "correct": "B",
-        "explanation": "काली मिट्टी में जल धारण करने की क्षमता अत्यधिक होती है और यह बेसाल्ट चट्टानों के टूटने से बनती है। इसे 'कपासी मिट्टी' या 'रेगुर' भी कहते हैं।"
+        "explanation": "काली मिट्टी (रेगुर मिट्टी) में जल धारण क्षमता अधिक होती है और यह कपास हेतु सर्वोत्तम है।"
     },
     {
         "q_num": 66,
-        "subject": "भूगोल",
-        "question": "विश्व का सबसे बड़ा महासागर और सबसे गहरा गर्त (मेरियाना गर्त) किस महासागर में स्थित है?",
-        "options": ["अटलांटिक महासागर", "प्रशांत महासागर (Pacific Ocean)", "हिन्द महासागर", "आर्कटिक महासागर"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "विश्व का सबसे बड़ा महासागर और सबसे गहरा गर्त (मेरियाना गर्त) किसमें स्थित है?",
+        "question_en": "Which is the largest ocean in the world containing Mariana Trench?",
+        "options": ["अटलांटिक / Atlantic", "प्रशांत महासागर / Pacific Ocean", "हिन्द महासागर / Indian Ocean", "आर्कटिक / Arctic"],
         "correct": "B",
-        "explanation": "प्रशांत महासागर विश्व का सबसे विशाल और गहरा महासागर है। इसकी मेरियाना गर्त (चैलेंजर गर्त) की गहराई लगभग 11,034 मीटर है।"
+        "explanation": "प्रशांत महासागर (Pacific Ocean) सबसे बड़ा है और इसमें 11,034 मी गहरी मेरियाना गर्त है।"
     },
     {
         "q_num": 67,
-        "subject": "भूगोल",
-        "question": "सुंदरवन का प्रसिद्ध डेल्टा किन दो नदियों के मुहाने पर निर्मित हुआ है?",
-        "options": ["सिंधु और झेलम", "गंगा और ब्रह्मपुत्र", "नर्मदा और ताप्ती", "गोदावरी और कृष्णा"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "सुंदरवन का प्रसिद्ध डेल्टा किन दो नदियों के मुहाने पर बना है?",
+        "question_en": "The famous Sundarbans Delta is formed at the mouth of which two rivers?",
+        "options": ["सिंधु और झेलम / Indus & Jhelum", "गंगा और ब्रह्मपुत्र / Ganga & Brahmaputra", "नर्मदा और ताप्ती / Narmada & Tapi", "गोदावरी और कृष्णा / Godavari & Krishna"],
         "correct": "B",
-        "explanation": "गंगा और ब्रह्मपुत्र नदियां बंगाल की खाड़ी में गिरने से पूर्व विश्व के सबसे बड़े ज्वारीय डेल्टा 'सुंदरवन डेल्टा' का निर्माण करती हैं, जो सुंदरी वृक्षों व रॉयल बंगाल टाइगर के लिए विख्यात है।"
+        "explanation": "गंगा और ब्रह्मपुत्र नदियां विश्व का सबसे बड़ा डेल्टा 'सुंदरवन डेल्टा' बनाती हैं।"
     },
     {
         "q_num": 68,
-        "subject": "भूगोल",
-        "question": "भारत में 'हरित क्रांति' (Green Revolution) का जनक किसे कहा जाता है?",
-        "options": ["डॉ. वर्गीज कुरियन", "डॉ. एम. एस. स्वामीनाथन", "डॉ. एपीजे अब्दुल कलाम", "डॉ. होमी जहांगीर भाभा"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "भारत में 'हरित क्रांति' (Green Revolution) का जनक किसे कहा जाता है?",
+        "question_en": "Who is known as the Father of Green Revolution in India?",
+        "options": ["डॉ. कुरियन / Dr. Kurien", "डॉ. एम. एस. स्वामीनाथन / Dr. M.S. Swaminathan", "डॉ. कलाम / Dr. Kalam", "डॉ. भाभा / Dr. Bhabha"],
         "correct": "B",
-        "explanation": "भारत में उच्च उपज वाले उन्नत बीजों व आधुनिक कृषि तकनीक से खाद्यान्न (विशेषकर गेहूं व चावल) उत्पादन में भारी वृद्धि लाने वाले डॉ. एम. एस. स्वामीनाथन को हरित क्रांति का जनक माना जाता है।"
+        "explanation": "डॉ. एम. एस. स्वामीनाथन ने भारत में उन्नत बीजों द्वारा खाद्यान्न उत्पादन में हरित क्रांति लाई।"
     },
     {
         "q_num": 69,
-        "subject": "भूगोल",
-        "question": "उत्तर प्रदेश में सर्वाधिक वर्षा किस स्थान पर तथा न्यूनतम वर्षा किस जिले में दर्ज की जाती है?",
-        "options": ["गोरखपुर (सर्वाधिक) और मथुरा (न्यूनतम)", "लखनऊ और वाराणसी", "झांसी और कानपुर", "मेरठ और बरेली"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "उत्तर प्रदेश में सर्वाधिक वर्षा किस जिले में तथा सबसे कम वर्षा किस जिले में होती है?",
+        "question_en": "In UP, highest rainfall occurs in which district and lowest in which?",
+        "options": ["गोरखपुर (अधिक) और मथुरा (कम)", "लखनऊ और वाराणसी", "झांसी और कानपुर", "मेरठ और बरेली"],
         "correct": "A",
-        "explanation": "उत्तर प्रदेश में बंगाल की खाड़ी शाखा के मानसून से सर्वाधिक वर्षा गोरखपुर (तराई क्षेत्र) में होती है तथा सबसे कम वर्षा पश्चिमी छोर पर स्थित मथुरा जिले में होती है।"
+        "explanation": "उत्तर प्रदेश में सर्वाधिक वर्षा गोरखपुर में और सबसे कम वर्षा मथुरा जिले में होती है।"
     },
     {
         "q_num": 70,
-        "subject": "भूगोल",
-        "question": "ओजोन परत के क्षरण के लिए मुख्य रूप से कौन-सी रसायन गैस उत्तरदायी मानी जाती है?",
-        "options": ["कार्बन डाइऑक्साइड", "क्लोरोफ्लोरोकार्बन (CFC)", "ऑक्सीजन", "नाइट्रोजन"],
+        "subject": "भूगोल / Geography",
+        "question_hi": "ओजोन परत के क्षरण के लिए मुख्य रूप से कौन-सी गैस उत्तरदायी है?",
+        "question_en": "Which gas is mainly responsible for the depletion of the Ozone layer?",
+        "options": ["कार्बन डाइऑक्साइड / CO₂", "क्लोरोफ्लोरोकार्बन (CFC)", "ऑक्सीजन / O₂", "नाइट्रोजन / N₂"],
         "correct": "B",
-        "explanation": "रेफ्रिजरेटर, एसी और एरोसोल में प्रयुक्त क्लोरोफ्लोरोकार्बन (CFC) गैस वायुमंडल में जाकर ओजोन (O₃) अणुओं को तोड़ देती है, जिससे ओजोन परत पतली हो जाती है।"
+        "explanation": "क्लोरोफ्लोरोकार्बन (CFC) ओजोन अणुओं को तोड़कर ओजोन परत को क्षति पहुँचाती है।"
     },
 
     # =========================================================================
@@ -595,83 +665,93 @@ UP_SAT_QUESTIONS = [
     # =========================================================================
     {
         "q_num": 71,
-        "subject": "नागरिक शास्त्र",
-        "question": "भारतीय संविधान सभा की प्रारूप समिति (Drafting Committee) के अध्यक्ष कौन थे?",
-        "options": ["डॉ. राजेंद्र प्रसाद", "डॉ. भीमराव आंबेडकर", "पंडित जवाहरलाल नेहरू", "सरदार वल्लभभाई पटेल"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "भारतीय संविधान सभा की प्रारूप समिति (Drafting Committee) के अध्यक्ष कौन थे?",
+        "question_en": "Who was the Chairman of the Drafting Committee of the Indian Constituent Assembly?",
+        "options": ["डॉ. राजेंद्र प्रसाद", "डॉ. भीमराव आंबेडकर / Dr. B.R. Ambedkar", "पंडित नेहरू / Pt. Nehru", "सरदार पटेल / Sardar Patel"],
         "correct": "B",
-        "explanation": "डॉ. भीमराव आंबेडकर 29 अगस्त 1947 को गठित 7 सदस्यीय प्रारूप समिति के अध्यक्ष थे। उन्हें 'भारतीय संविधान का जनक/शिल्पकार' कहा जाता है।"
+        "explanation": "डॉ. भीमराव आंबेडकर संविधान प्रारूप समिति के अध्यक्ष थे और भारतीय संविधान के जनक हैं।"
     },
     {
         "q_num": 72,
-        "subject": "नागरिक शास्त्र",
-        "question": "हमारा भारतीय संविधान किस तिथि को बनकर तैयार हुआ और अंगीकृत (Adopt) किया गया?",
-        "options": ["15 अगस्त 1947", "26 नवम्बर 1949", "26 जनवरी 1950", "2 अक्टूबर 1952"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "भारतीय संविधान किस तिथि को अंगीकृत (Adopt) किया गया था?",
+        "question_en": "On which date was the Constitution of India adopted?",
+        "options": ["15 अगस्त 1947", "26 नवम्बर 1949 / 26 November 1949", "26 जनवरी 1950", "2 अक्टूबर 1952"],
         "correct": "B",
-        "explanation": "संविधान सभा ने 2 वर्ष, 11 माह, 18 दिन के परिश्रम के बाद 26 नवम्बर 1949 को संविधान अंगीकृत किया। इसलिए प्रतिवर्ष 26 नवम्बर को 'संविधान दिवस' मनाया जाता है।"
+        "explanation": "26 नवम्बर 1949 को संविधान अंगीकृत हुआ, इसलिए प्रतिवर्ष 26 नवम्बर को 'संविधान दिवस' मनाते हैं।"
     },
     {
         "q_num": 73,
-        "subject": "नागरिक शास्त्र",
-        "question": "भारतीय नागरिकों को वर्तमान में कुल कितने मौलिक अधिकार (Fundamental Rights) प्राप्त हैं?",
-        "options": ["5", "6 मौलिक अधिकार", "7", "11"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "भारतीय नागरिकों को वर्तमान में कुल कितने मौलिक अधिकार प्राप्त हैं?",
+        "question_en": "How many Fundamental Rights are currently guaranteed to Indian citizens?",
+        "options": ["5", "6 मौलिक अधिकार / 6 Rights", "7", "11"],
         "correct": "B",
-        "explanation": "मूल संविधान में 7 मौलिक अधिकार थे, परंतु 44वें संशोधन (1978) द्वारा संपत्ति के अधिकार को हटा दिया गया। अब 6 मौलिक अधिकार प्राप्त हैं।"
+        "explanation": "वर्तमान में भारतीय संविधान नागरिकों को 6 मौलिक अधिकार (अनुच्छेद 12-35) प्रदान करता है।"
     },
     {
         "q_num": 74,
-        "subject": "नागरिक शास्त्र",
-        "question": "भारत के राष्ट्रपति पद हेतु चुनाव लड़ने के लिए न्यूनतम आयु सीमा कितनी निर्धारित है?",
-        "options": ["21 वर्ष", "25 वर्ष", "30 वर्ष", "35 वर्ष"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "भारत के राष्ट्रपति पद हेतु चुनाव लड़ने के लिए न्यूनतम आयु सीमा कितनी है?",
+        "question_en": "What is the minimum age required to contest for the President of India?",
+        "options": ["21 वर्ष / 21 Years", "25 वर्ष / 25 Years", "30 वर्ष / 30 Years", "35 वर्ष / 35 Years"],
         "correct": "D",
-        "explanation": "भारत का नागरिक, दिवालिया या पागल न हो तथा न्यूनतम 35 वर्ष की आयु पूर्ण कर चुका हो, राष्ट्रपति व राज्यपाल पद के लिए योग्य होता है।"
+        "explanation": "राष्ट्रपति एवं राज्यपाल पद हेतु न्यूनतम आयु सीमा 35 वर्ष निर्धारित है।"
     },
     {
         "q_num": 75,
-        "subject": "नागरिक शास्त्र",
-        "question": "संसद के उच्च सदन (Upper House) को क्या कहते हैं और इसका कार्यकाल कितना होता है?",
-        "options": ["लोकसभा (5 वर्ष)", "राज्यसभा (स्थायी सदन, सदस्यों का कार्यकाल 6 वर्ष)", "विधान परिषद", "सर्वोच्च न्यायालय"],
-        "correct": "B",
-        "explanation": "राज्यसभा संसद का उच्च सदन है जो कभी भंग नहीं होता। इसके एक-तिहाई सदस्य प्रत्येक दो वर्ष बाद सेवानिवृत्त होते हैं और सदस्यों का कार्यकाल 6 वर्ष होता है।"
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "संसद के उच्च सदन (राज्यसभा) के सदस्यों का कार्यकाल कितने वर्ष का होता है?",
+        "question_en": "What is the tenure of members of the Rajya Sabha (Upper House of Parliament)?",
+        "options": ["4 वर्ष / 4 Years", "5 वर्ष / 5 Years", "6 वर्ष / 6 Years", "स्थायी / Permanent"],
+        "correct": "C",
+        "explanation": "राज्यसभा स्थायी सदन है, परंतु इसके सदस्यों का कार्यकाल 6 वर्ष होता है (1/3 सदस्य हर 2 वर्ष में बदलते हैं)।"
     },
     {
         "q_num": 76,
-        "subject": "नागरिक शास्त्र",
-        "question": "भारत में 6 से 14 वर्ष के सभी बच्चों के लिए निःशुल्क एवं अनिवार्य शिक्षा का अधिकार (RTE) किस संविधान संशोधन द्वारा जोड़ा गया?",
-        "options": ["42वाँ संशोधन", "44वाँ संशोधन", "86वाँ संविधान संशोधन (अनुच्छेद 21A)", "73वाँ संशोधन"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "6 से 14 वर्ष के बच्चों हेतु शिक्षा का अधिकार (RTE) किस संविधान संशोधन द्वारा जोड़ा गया?",
+        "question_en": "By which amendment was Right to Education (Art 21A) for 6-14 years added?",
+        "options": ["42वाँ संशोधन", "44वाँ संशोधन", "86वाँ संशोधन (2002) / 86th Amendment", "73वाँ संशोधन"],
         "correct": "C",
-        "explanation": "86वें संविधान संशोधन अधिनियम 2002 द्वारा अनुच्छेद 21A जोड़कर प्राथमिक शिक्षा को 6 से 14 वर्ष के बच्चों का मौलिक अधिकार बनाया गया, जो 1 अप्रैल 2010 से प्रभावी हुआ।"
+        "explanation": "86वें संविधान संशोधन 2002 द्वारा अनुच्छेद 21A जोड़कर प्राथमिक शिक्षा को मौलिक अधिकार बनाया गया।"
     },
     {
         "q_num": 77,
-        "subject": "नागरिक शास्त्र",
-        "question": "भारत के तीनों रक्षा बलों (थल सेना, जल सेना, वायु सेना) का सर्वोच्च सेनापति (Supreme Commander) कौन होता है?",
-        "options": ["प्रधानमंत्री", "भारत का राष्ट्रपति", "रक्षा मंत्री", "चीफ ऑफ डिफेंस स्टाफ (CDS)"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "भारत के तीनों रक्षा बलों (थल, जल, नभ) का सर्वोच्च सेनापति कौन होता है?",
+        "question_en": "Who is the Supreme Commander of the Defense Forces of India?",
+        "options": ["प्रधानमंत्री / Prime Minister", "भारत का राष्ट्रपति / President of India", "रक्षा मंत्री / Defense Minister", "CDS"],
         "correct": "B",
-        "explanation": "भारतीय संविधान के अनुच्छेद 53(2) के तहत भारत के राष्ट्रपति संघ के रक्षा बलों के सर्वोच्च समादेशक (सुप्रीम कमांडर) होते हैं।"
+        "explanation": "अनुच्छेद 53(2) के अनुसार भारत के राष्ट्रपति तीनों सेनाओं के सर्वोच्च सेनापति (सुप्रीम कमांडर) होते हैं।"
     },
     {
         "q_num": 78,
-        "subject": "नागरिक शास्त्र",
-        "question": "पंचायती राज व्यवस्था को संवैधानिक दर्जा किस संविधान संशोधन अधिनियम द्वारा दिया गया?",
-        "options": ["42वाँ संशोधन", "44वाँ संशोधन", "73वाँ संविधान संशोधन (1992)", "86वाँ संशोधन"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "पंचायती राज व्यवस्था को किस संविधान संशोधन द्वारा संवैधानिक दर्जा दिया गया?",
+        "question_en": "By which Constitutional Amendment was Panchayati Raj granted constitutional status?",
+        "options": ["42वाँ संशोधन", "44वाँ संशोधन", "73वाँ संशोधन (1992) / 73rd Amendment", "86वाँ संशोधन"],
         "correct": "C",
-        "explanation": "73वें संविधान संशोधन 1992 द्वारा संविधान में भाग-9 और 11वीं अनुसूची जोड़कर त्रिस्तरीय पंचायती राज व्यवस्था (ग्राम, ब्लॉक, जिला) को संवैधानिक मान्यता दी गई।"
+        "explanation": "73वें संविधान संशोधन 1992 द्वारा त्रिस्तरीय पंचायती राज व्यवस्था को संवैधानिक दर्जा दिया गया।"
     },
     {
         "q_num": 79,
-        "subject": "नागरिक शास्त्र",
-        "question": "भारत में मताधिकार (वोट देने का अधिकार) प्राप्त करने के लिए न्यूनतम आयु कितनी है?",
-        "options": ["16 वर्ष", "18 वर्ष (61वें संशोधन द्वारा)", "21 वर्ष", "25 वर्ष"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "भारत में मताधिकार (वोट डालने का अधिकार) हेतु न्यूनतम आयु कितनी है?",
+        "question_en": "What is the minimum voting age for citizens in India?",
+        "options": ["16 वर्ष", "18 वर्ष (61वें संशोधन द्वारा) / 18 Years", "21 वर्ष", "25 वर्ष"],
         "correct": "B",
-        "explanation": "61वें संविधान संशोधन 1989 द्वारा मतदान की न्यूनतम आयु 21 वर्ष से घटाकर 18 वर्ष कर दी गई।"
+        "explanation": "61वें संविधान संशोधन 1989 द्वारा मतदान की न्यूनतम आयु 21 से घटाकर 18 वर्ष कर दी गई।"
     },
     {
         "q_num": 80,
-        "subject": "नागरिक शास्त्र",
-        "question": "भारतीय संविधान में नागरिकों के 'मौलिक कर्तव्य' (Fundamental Duties) किस अनुच्छेद के अंतर्गत वर्णित हैं?",
-        "options": ["अनुच्छेद 19", "अनुच्छेद 21", "अनुच्छेद 51A (भाग 4A)", "अनुच्छेद 32"],
+        "subject": "नागरिक शास्त्र / Civics",
+        "question_hi": "भारतीय संविधान में नागरिकों के मौलिक कर्तव्य (Fundamental Duties) किस अनुच्छेद में हैं?",
+        "question_en": "Under which Article are Fundamental Duties described in the Indian Constitution?",
+        "options": ["अनुच्छेद 19 / Article 19", "अनुच्छेद 21 / Article 21", "अनुच्छेद 51A / Article 51A", "अनुच्छेद 32 / Article 32"],
         "correct": "C",
-        "explanation": "42वें संविधान संशोधन 1976 द्वारा स्वर्ण सिंह समिति की सिफारिश पर अनुच्छेद 51A में मौलिक कर्तव्य जोड़े गए। वर्तमान में कुल 11 मौलिक कर्तव्य हैं।"
+        "explanation": "अनुच्छेद 51A (भाग 4A) में नागरिकों के 11 मौलिक कर्तव्य वर्णित हैं।"
     },
 
     # =========================================================================
@@ -679,165 +759,185 @@ UP_SAT_QUESTIONS = [
     # =========================================================================
     {
         "q_num": 81,
-        "subject": "गणित (अंकगणित)",
-        "question": "परिमेय संख्या -3/5 का योज्य प्रतिलोम (Additive Inverse) क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "परिमेय संख्या -3/5 का योज्य प्रतिलोम (Additive Inverse) क्या होगा?",
+        "question_en": "What is the additive inverse of rational number -3/5?",
         "options": ["-5/3", "3/5", "5/3", "-1"],
         "correct": "B",
-        "explanation": "किसी संख्या का योज्य प्रतिलोम वह संख्या होती है जिसे जोड़ने पर योगफल शून्य (0) प्राप्त हो। अतः -3/5 का योज्य प्रतिलोम +3/5 होगा।"
+        "explanation": "योज्य प्रतिलोम वह संख्या है जिसे जोड़ने पर योग शून्य हो: -3/5 + 3/5 = 0।"
     },
     {
         "q_num": 82,
-        "subject": "गणित (वर्ग एवं वर्गमूल)",
-        "question": "संख्या 1024 का वर्गमूल (Square Root) क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "संख्या 1024 का वर्गमूल (Square Root) क्या होगा?",
+        "question_en": "What is the square root of 1024?",
         "options": ["28", "32", "34", "36"],
         "correct": "B",
-        "explanation": "32 × 32 = 1024। अभाज्य गुणनखंड विधि: 1024 = 2¹⁰, अतः √1024 = 2⁵ = 32।"
+        "explanation": "√1024 = 32 (क्योंकि 32 × 32 = 1024)।"
     },
     {
         "q_num": 83,
-        "subject": "गणित (घन एवं घनमूल)",
-        "question": "संख्या 729 का घनमूल (Cube Root) ज्ञात कीजिए:",
+        "subject": "गणित / Mathematics",
+        "question_hi": "संख्या 729 का घनमूल (Cube Root) ज्ञात कीजिए:",
+        "question_en": "Find the cube root of 729:",
         "options": ["7", "8", "9", "11"],
         "correct": "C",
-        "explanation": "9 × 9 × 9 = 81 × 9 = 729। अतः ∛729 = 9।"
+        "explanation": "∛729 = 9 (क्योंकि 9 × 9 × 9 = 729)।"
     },
     {
         "q_num": 84,
-        "subject": "गणित (घातांक)",
-        "question": "व्यंजक (2³ × 2⁴) का मान घातांक के रूप में क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "व्यंजक (2³ × 2⁴) का मान घातांक रूप में क्या होगा?",
+        "question_en": "What is the value of (2³ × 2⁴) in exponential form?",
         "options": ["2¹²", "2⁷", "4⁷", "2¹"],
         "correct": "B",
-        "explanation": "घातांक नियम: aᵐ × aⁿ = a⁽ᵐ⁺ⁿ⁾। यहाँ आधार 2 समान है, अतः 2³⁺⁴ = 2⁷ (मान = 128)।"
+        "explanation": "घातांक नियम: aᵐ × aⁿ = aᵐ⁺ⁿ। 2³⁺⁴ = 2⁷ = 128।"
     },
     {
         "q_num": 85,
-        "subject": "गणित (रैखिक समीकरण)",
-        "question": "यदि 3x + 5 = 20 हो, तो x का मान क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "यदि 3x + 5 = 20 हो, तो x का मान क्या होगा?",
+        "question_en": "If 3x + 5 = 20, then what is the value of x?",
         "options": ["3", "4", "5", "6"],
         "correct": "C",
-        "explanation": "3x = 20 - 5 => 3x = 15 => x = 15 / 3 = 5।"
+        "explanation": "3x = 20 - 5 = 15 => x = 15 / 3 = 5।"
     },
     {
         "q_num": 86,
-        "subject": "गणित (प्रतिशतता)",
-        "question": "एक परीक्षा में 500 में से 400 अंक प्राप्त करने वाले छात्र का प्राप्तांक प्रतिशत क्या है?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "एक परीक्षा में 500 में से 400 अंक प्राप्त करने पर प्राप्तांक प्रतिशत क्या है?",
+        "question_en": "Scoring 400 out of 500 marks in an exam represents what percentage?",
         "options": ["75%", "80%", "85%", "90%"],
         "correct": "B",
-        "explanation": "प्रतिशत = (प्राप्तांक / पूर्णांक) × 100 = (400 / 500) × 100 = 4 / 5 × 100 = 80%।"
+        "explanation": "(400 ÷ 500) × 100 = 80%।"
     },
     {
         "q_num": 87,
-        "subject": "गणित (लाभ-हानि)",
-        "question": "एक वस्तु ₹400 में खरीदी गई और ₹500 में बेची गई। लाभ प्रतिशत क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "₹400 की वस्तु ₹500 में बेचने पर लाभ प्रतिशत क्या होगा?",
+        "question_en": "An item bought for ₹400 is sold for ₹500. What is the profit percentage?",
         "options": ["20%", "25%", "30%", "15%"],
         "correct": "B",
-        "explanation": "क्रय मूल्य = ₹400, विक्रय मूल्य = ₹500। लाभ = 500 - 400 = ₹100। लाभ % = (100 / 400) × 100 = 25%।"
+        "explanation": "लाभ = ₹100। लाभ % = (100 / 400) × 100 = 25%।"
     },
     {
         "q_num": 88,
-        "subject": "गणित (साधारण ब्याज)",
-        "question": "₹2000 का 5% वार्षिक दर से 3 वर्ष का साधारण ब्याज कितना होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "₹2000 का 5% वार्षिक दर से 3 वर्ष का साधारण ब्याज कितना होगा?",
+        "question_en": "What is the simple interest on ₹2000 at 5% per annum for 3 years?",
         "options": ["₹250", "₹300", "₹350", "₹400"],
         "correct": "B",
-        "explanation": "साधारण ब्याज = (मूलधन × दर × समय) / 100 = (2000 × 5 × 3) / 100 = 20 × 15 = ₹300।"
+        "explanation": "SI = (P × R × T) / 100 = (2000 × 5 × 3) / 100 = ₹300।"
     },
     {
         "q_num": 89,
-        "subject": "गणित (ज्यामिति - त्रिभुज)",
-        "question": "किसी त्रिभुज के दो अंतःकोण 60° और 70° हैं। तीसरे कोण का मान क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "त्रिभुज के दो कोण 60° और 70° हैं। तीसरे कोण का मान क्या होगा?",
+        "question_en": "Two angles of a triangle are 60° and 70°. What is the third angle?",
         "options": ["40°", "50°", "60°", "70°"],
         "correct": "B",
-        "explanation": "त्रिभुज के तीनों अंतःकोणों का योग 180° होता है। तीसरा कोण = 180° - (60° + 70°) = 180° - 130° = 50°।"
+        "explanation": "तीसरा कोण = 180° - (60° + 70°) = 180° - 130° = 50°।"
     },
     {
         "q_num": 90,
-        "subject": "गणित (क्षेत्रमिति - आयत)",
-        "question": "एक आयताकार मैदान की लम्बाई 20 मीटर तथा चौड़ाई 15 मीटर है। उसका क्षेत्रफल क्या होगा?",
-        "options": ["70 वर्ग मीटर", "150 वर्ग मीटर", "300 वर्ग मीटर", "350 वर्ग मीटर"],
+        "subject": "गणित / Mathematics",
+        "question_hi": "लम्बाई 20 मी तथा चौड़ाई 15 मी वाले आयत का क्षेत्रफल क्या होगा?",
+        "question_en": "What is the area of a rectangle with length 20m and breadth 15m?",
+        "options": ["70 m²", "150 m²", "300 m²", "350 m²"],
         "correct": "C",
-        "explanation": "आयत का क्षेत्रफल = लम्बाई × चौड़ाई = 20 मी × 15 मी = 300 वर्ग मीटर (मी²)।"
+        "explanation": "क्षेत्रफल = ल. × चौ. = 20 × 15 = 300 वर्ग मीटर।"
     },
     {
         "q_num": 91,
-        "subject": "गणित (क्षेत्रमिति - वर्ग)",
-        "question": "एक वर्गाकार पार्क की परिमाप 64 मीटर है। पार्क का क्षेत्रफल कितना होगा?",
-        "options": ["128 वर्ग मीटर", "196 वर्ग मीटर", "256 वर्ग मीटर", "512 वर्ग मीटर"],
+        "subject": "गणित / Mathematics",
+        "question_hi": "एक वर्ग की परिमाप 64 मीटर है। वर्ग का क्षेत्रफल कितना होगा?",
+        "question_en": "The perimeter of a square is 64m. What is its area?",
+        "options": ["128 m²", "196 m²", "256 m²", "512 m²"],
         "correct": "C",
-        "explanation": "वर्ग की परिमाप = 4 × भुजा = 64 => भुजा = 64 / 4 = 16 मीटर। क्षेत्रफल = भुजा² = 16² = 256 वर्ग मीटर।"
+        "explanation": "भुजा = 64 ÷ 4 = 16 मी। क्षेत्रफल = 16² = 256 वर्ग मीटर।"
     },
     {
         "q_num": 92,
-        "subject": "गणित (क्षेत्रमिति - वृत्त)",
-        "question": "त्रिज्या 7 सेमी वाले वृत्त की परिधि क्या होगी? (π = 22/7)",
-        "options": ["22 सेमी", "44 सेमी", "88 सेमी", "154 सेमी"],
+        "subject": "गणित / Mathematics",
+        "question_hi": "त्रिज्या 7 सेमी वाले वृत्त की परिधि क्या होगी? (π = 22/7)",
+        "question_en": "What is the circumference of a circle with radius 7cm? (π = 22/7)",
+        "options": ["22 cm", "44 cm", "88 cm", "154 cm"],
         "correct": "B",
-        "explanation": "वृत्त की परिधि = 2πr = 2 × (22/7) × 7 = 44 सेमी।"
+        "explanation": "परिधि = 2πr = 2 × (22/7) × 7 = 44 सेमी।"
     },
     {
         "q_num": 93,
-        "subject": "गणित (बीजगणित - सर्वसमिका)",
-        "question": "यदि a = 5 और b = 3 हो, तो (a² - b²) का मान क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "यदि a = 5 और b = 3 हो, तो (a² - b²) का मान क्या होगा?",
+        "question_en": "If a = 5 and b = 3, what is the value of (a² - b²)?",
         "options": ["8", "16", "24", "34"],
         "correct": "B",
-        "explanation": "सर्वसमिका: a² - b² = (a + b)(a - b) = (5 + 3)(5 - 3) = 8 × 2 = 16। (या 25 - 9 = 16)।"
+        "explanation": "a² - b² = 5² - 3² = 25 - 9 = 16।"
     },
     {
         "q_num": 94,
-        "subject": "गणित (अनुपात)",
-        "question": "यदि A : B = 2 : 3 और B : C = 3 : 4 हो, तो A : C का मान क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "यदि A : B = 2 : 3 और B : C = 3 : 4 हो, तो A : C क्या होगा?",
+        "question_en": "If A : B = 2 : 3 and B : C = 3 : 4, what is A : C?",
         "options": ["1 : 2", "2 : 3", "3 : 4", "1 : 3"],
         "correct": "A",
-        "explanation": "A : B : C = 2 : 3 : 4। अतः A : C = 2 : 4 = 1 : 2।"
+        "explanation": "A : C = 2 : 4 = 1 : 2।"
     },
     {
         "q_num": 95,
-        "subject": "गणित (सांख्यिकी - माध्य)",
-        "question": "संख्याओं 4, 8, 12, 16 और 20 का समांतर माध्य (Mean) क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "संख्याओं 4, 8, 12, 16 और 20 का समांतर माध्य (Mean) क्या होगा?",
+        "question_en": "What is the arithmetic mean of 4, 8, 12, 16 and 20?",
         "options": ["10", "12", "14", "16"],
         "correct": "B",
-        "explanation": "समांतर माध्य = सभी पदों का योग / कुल पदों की संख्या = (4 + 8 + 12 + 16 + 20) / 5 = 60 / 5 = 12।"
+        "explanation": "माध्य = (4 + 8 + 12 + 16 + 20) ÷ 5 = 60 ÷ 5 = 12।"
     },
     {
         "q_num": 96,
-        "subject": "गणित (ज्यामिति - चतुर्भुज)",
-        "question": "किसी चतुर्भुज के चारों अंतःकोणों का योग कितना होता है?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "किसी चतुर्भुज के चारों अंतःकोणों का योग कितना होता है?",
+        "question_en": "What is the sum of all interior angles of a quadrilateral?",
         "options": ["180°", "270°", "360°", "540°"],
         "correct": "C",
-        "explanation": "किसी भी चतुर्भुज के चारों अंतःकोणों का योग सदैव (4 - 2) × 180° = 2 × 180° = 360° होता है।"
+        "explanation": "चतुर्भुज के चारों अंतःकोणों का योग 360° होता है।"
     },
     {
         "q_num": 97,
-        "subject": "गणित (पाइथागोरस प्रमेय)",
-        "question": "एक समकोण त्रिभुज का आधार 6 सेमी तथा लम्ब 8 सेमी है। उसके कर्ण (Hypotenuse) की लम्बाई क्या होगी?",
-        "options": ["9 सेमी", "10 सेमी", "12 सेमी", "14 सेमी"],
+        "subject": "गणित / Mathematics",
+        "question_hi": "समकोण त्रिभुज का आधार 6 सेमी तथा लम्ब 8 सेमी है। कर्ण की लम्बाई क्या होगी?",
+        "question_en": "Right-angled triangle has base 6cm and height 8cm. Find the hypotenuse:",
+        "options": ["9 cm", "10 cm", "12 cm", "14 cm"],
         "correct": "B",
-        "explanation": "पाइथागोरस प्रमेय से: कर्ण² = आधार² + लम्ब² = 6² + 8² = 36 + 64 = 100। अतः कर्ण = √100 = 10 सेमी।"
+        "explanation": "कर्ण = √(6² + 8²) = √(36 + 64) = √100 = 10 सेमी।"
     },
     {
         "q_num": 98,
-        "subject": "गणित (आयतन - बेलन)",
-        "question": "एक लम्बवृत्तीय बेलन के आधार की त्रिज्या r तथा ऊँचाई h है। उसके आयतन का सूत्र क्या है?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "त्रिज्या r तथा ऊँचाई h वाले लम्बवृत्तीय बेलन के आयतन का सूत्र क्या है?",
+        "question_en": "What is the formula for the volume of a cylinder with radius r and height h?",
         "options": ["2πrh", "πr²h", "πrl", "2πr(r+h)"],
         "correct": "B",
-        "explanation": "बेलन का आयतन (Volume of Cylinder) = आधार का क्षेत्रफल × ऊँचाई = πr²h होता है।"
+        "explanation": "बेलन का आयतन = πr²h।"
     },
     {
         "q_num": 99,
-        "subject": "गणित (सांख्यिकी - बहुलक)",
-        "question": "दिए गए आँकड़ों 3, 5, 7, 5, 9, 5, 11, 7 का बहुलक (Mode) क्या होगा?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "आँकड़ों 3, 5, 7, 5, 9, 5, 11, 7 का बहुलक (Mode) क्या होगा?",
+        "question_en": "What is the mode of data 3, 5, 7, 5, 9, 5, 11, 7?",
         "options": ["3", "5", "7", "9"],
         "correct": "B",
-        "explanation": "बहुलक वह पद होता है जिसकी बारंबारता सबसे अधिक होती है। यहाँ संख्या '5' सर्वाधिक 3 बार आई है, अतः बहुलक 5 है।"
+        "explanation": "संख्या '5' सबसे अधिक 3 बार आई है, अतः बहुलक 5 है।"
     },
     {
         "q_num": 100,
-        "subject": "गणित (प्रायिकता)",
-        "question": "एक पासे को एक बार फेंकने पर उस पर सम संख्या (Even Number) आने की प्रायिकता क्या होगी?",
+        "subject": "गणित / Mathematics",
+        "question_hi": "एक पासे को फेंकने पर उस पर सम संख्या (Even Number) आने की प्रायिकता क्या है?",
+        "question_en": "What is the probability of getting an even number in a throw of a dice?",
         "options": ["1/6", "1/3", "1/2", "2/3"],
         "correct": "C",
-        "explanation": "पासे पर कुल परिणाम = 6 (1, 2, 3, 4, 5, 6)। सम संख्याएं = 3 (2, 4, 6)। अतः प्रायिकता = अनुकूल परिणाम / कुल परिणाम = 3 / 6 = 1/2।"
+        "explanation": "सम संख्याएं = {2, 4, 6} (3 संख्याएं)। प्रायिकता = 3/6 = 1/2।"
     }
 ]
 
 if __name__ == "__main__":
-    print(f"Total SAT Questions in Pool: {len(UP_SAT_QUESTIONS)}")
+    print(f"Total Bilingual SAT Questions: {len(UP_SAT_QUESTIONS)}")
