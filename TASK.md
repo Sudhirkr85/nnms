@@ -208,15 +208,18 @@
 - **क्लास अवधि:** 2 घंटे+ की लाइव महा मैराथन क्लास (YouTube / Classroom Ready)।
 
 ### ब. समर्पित फोल्डर संरचना (`UP_NMMS_MahaManthan_Nov_Exam_SagarSir\`):
-1. `UP_NMMS_MAT_MahaManthan_100Q_Nov_Exam.pptx` (207 Slides • 102 Questions)
-2. `UP_NMMS_MAT_MahaManthan_100Q_Nov_Exam.pdf` (High Quality Vector PDF)
-3. `UP_NMMS_SAT_MahaManthan_100Q_Nov_Exam.pptx` (203 Slides • 100 Questions)
-4. `UP_NMMS_SAT_MahaManthan_100Q_Nov_Exam.pdf` (High Quality Vector PDF)
-5. `Thumbnail_MAT_MahaManthan_UP_NMMS.png` (1280x720 HD High-CTR YouTube Thumbnail)
-6. `Thumbnail_SAT_MahaManthan_UP_NMMS.png` (1280x720 HD High-CTR YouTube Thumbnail)
-7. `Thumbnail_Grand_Combo_MahaManthan_UP_NMMS.png` (1280x720 HD High-CTR YouTube Thumbnail)
+1. `UP_NMMS_MAT_MahaManthan_100Q_Nov_Exam.pptx` (207 Slides • 102 Questions • द्विभाषी Hindi + English • Center Aligned)
+2. `UP_NMMS_MAT_MahaManthan_100Q_Nov_Exam.pdf` (High Quality Vector PDF • Center Aligned)
+3. `UP_NMMS_SAT_MahaManthan_100Q_Nov_Exam.pptx` (203 Slides • 100 Questions • द्विभाषी Hindi + English • Center Aligned)
+4. `UP_NMMS_SAT_MahaManthan_100Q_Nov_Exam.pdf` (High Quality Vector PDF • Center Aligned)
+*(नोट: इस फोल्डर में केवल क्लासरूम-रेडी PPTs और उनके मैचिंग PDFs उपलब्ध हैं)*
 
-### स. विषय-वार प्रश्न विश्लेषण:
+### स. द्विभाषी प्रस्तुति एवं सेंटर अलाइनमेंट (Bilingual Layout):
+- प्रश्न कार्ड में हिंदी प्रश्न (Pt 16.5 Bold Navy) ऊपर तथा अंग्रेजी प्रश्न (Pt 14.5 Bold Blue) नीचे सेंटर-अलाइन (`PP_ALIGN.CENTER`) किए गए हैं।
+- दोनों प्रश्नों के बीच स्पष्ट 6pt वर्टिकल स्पेसिंग रखी गई है जिससे स्क्रीन पर संतुलन और पठनीयता बनी रहे।
+- विकल्पों में भी हिंदी और अंग्रेजी दोनों पद दिए गए हैं।
+
+### द. विषय-वार प्रश्न विश्लेषण:
 - **MAT (मानसिक योग्यता - 102 प्रश्न):** वर्गीकरण (12), सादृश्यता (12), संख्या श्रेणी (12), अक्षर श्रेणी (10), कोडिंग-डिकोडिंग (10), लुप्त संख्याएं (10), गणितीय संक्रियाएं (8), रक्त संबंध (6), दिशा व दूरी (6), वेन आरेख (6), रैंकिंग (4), अशाब्दिक/दर्पण प्रतिबिम्ब (6)।
 - **SAT (शैक्षिक योग्यता - 100 प्रश्न):** 
   - विज्ञान (40 प्रश्न): भौतिक विज्ञान 14, रसायन विज्ञान 13, जीव विज्ञान 13

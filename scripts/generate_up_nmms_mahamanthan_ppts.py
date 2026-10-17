@@ -318,18 +318,20 @@ def add_interactive_mcq_pair(prs, q_num, q_hi, q_en, options, correct_opt, expla
 
     qp1_hi = q_tf1.paragraphs[0]
     qp1_hi.text = f"प्र. {q_num}. {q_hi}"
+    qp1_hi.alignment = PP_ALIGN.CENTER
     qp1_hi.font.name = "Segoe UI"
-    qp1_hi.font.size = Pt(16)
+    qp1_hi.font.size = Pt(16.5)
     qp1_hi.font.bold = True
     qp1_hi.font.color.rgb = C_NAVY
 
     qp1_en = q_tf1.add_paragraph()
     qp1_en.text = f"Q. {q_num}. {q_en}"
+    qp1_en.alignment = PP_ALIGN.CENTER
     qp1_en.font.name = "Segoe UI"
-    qp1_en.font.size = Pt(14)
+    qp1_en.font.size = Pt(14.5)
     qp1_en.font.bold = True
     qp1_en.font.color.rgb = RGBColor(37, 99, 235)
-    qp1_en.space_before = Pt(3)
+    qp1_en.space_before = Pt(6)
 
     for idx, (lbl, opt_text) in enumerate(zip(opt_labels, options)):
         left, top, w, h = opt_pos[idx]
@@ -369,18 +371,20 @@ def add_interactive_mcq_pair(prs, q_num, q_hi, q_en, options, correct_opt, expla
 
     qp2_hi = q_tf2.paragraphs[0]
     qp2_hi.text = f"प्र. {q_num}. {q_hi}"
+    qp2_hi.alignment = PP_ALIGN.CENTER
     qp2_hi.font.name = "Segoe UI"
-    qp2_hi.font.size = Pt(16)
+    qp2_hi.font.size = Pt(16.5)
     qp2_hi.font.bold = True
     qp2_hi.font.color.rgb = C_NAVY
 
     qp2_en = q_tf2.add_paragraph()
     qp2_en.text = f"Q. {q_num}. {q_en}"
+    qp2_en.alignment = PP_ALIGN.CENTER
     qp2_en.font.name = "Segoe UI"
-    qp2_en.font.size = Pt(14)
+    qp2_en.font.size = Pt(14.5)
     qp2_en.font.bold = True
     qp2_en.font.color.rgb = RGBColor(37, 99, 235)
-    qp2_en.space_before = Pt(3)
+    qp2_en.space_before = Pt(6)
 
     for idx, (lbl, opt_text) in enumerate(zip(opt_labels, options)):
         left, top, w, h = opt_pos[idx]
