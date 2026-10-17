@@ -190,10 +190,41 @@
 2. `generate_sat_tests_01_02.py` — SAT Tests 01 व 02।
 3. `generate_sat_tests_03_04.py` — SAT Tests 03 व 04।
 4. `generate_sat_tests_05_06.py` — SAT Tests 05 व 06।
-5. `generate_sat_tests_07_08.py` — SAT Tests 07 व 08।
-6. `generate_sat_tests_09_10.py` — SAT Tests 09 व 10।
+### उत्तर प्रदेश NMMS महामंथन (UP NMMS 2024-25 Suite):
+1. `data_up_mat_100q.py` — UP NMMS MAT 102 अति-संभावित प्रश्नों का डेटाबेस।
+2. `data_up_sat_100q.py` — UP NMMS SAT 100 अति-संभावित प्रश्नों (विज्ञान 40, सामाजिक 40, गणित 20) का डेटाबेस।
+3. `generate_up_nmms_mahamanthan_ppts.py` — 2 घंटे+ की लाइव क्लास हेतु 207-स्लाइड MAT और 203-स्लाइड SAT PPT जनरेटर।
+4. `generate_up_thumbnails.py` — YouTube हेतु हाई-सीटीआर 1280x720 थंबनेल्स जनरेटर।
+5. `convert_all_ppts_to_pdf.py` — संपूर्ण रिपॉजिटरी की सभी PPTX फ़ाइलों को उच्च-गुणवत्ता वाले PDF में बदलने का बैच इंजन।
+
+---
+
+## 🎯 9. उत्तर प्रदेश NMMS नवम्बर परीक्षा महामंथन (UP NMMS 2024-25 Suite)
+
+### अ. उद्देश्य एवं परीक्षा विश्लेषण (Exam Deep Dive):
+- **परीक्षा:** उत्तर प्रदेश राष्ट्रीय आय एवं योग्यता आधारित छात्रवृत्ति परीक्षा (परीक्षा नियामक प्राधिकारी, प्रयागराज द्वारा आयोजित)।
+- **तिथि:** नवम्बर 2024 / 2025।
+- **पाठ्यक्रम आधार:** उत्तर प्रदेश बेसिक शिक्षा परिषद् कक्षा 7 एवं 8 की पाठ्यपुस्तकें (विज्ञान भारती, हमारा इतिहास और नागरिक जीवन, पृथ्वी और हमारा जीवन, सीखें गणित) एवं विगत 10 वर्षों के PYQ ट्रेंड्स।
+- **क्लास अवधि:** 2 घंटे+ की लाइव महा मैराथन क्लास (YouTube / Classroom Ready)।
+
+### ब. समर्पित फोल्डर संरचना (`UP_NMMS_MahaManthan_Nov_Exam_SagarSir\`):
+1. `UP_NMMS_MAT_MahaManthan_100Q_Nov_Exam.pptx` (207 Slides • 102 Questions)
+2. `UP_NMMS_MAT_MahaManthan_100Q_Nov_Exam.pdf` (High Quality Vector PDF)
+3. `UP_NMMS_SAT_MahaManthan_100Q_Nov_Exam.pptx` (203 Slides • 100 Questions)
+4. `UP_NMMS_SAT_MahaManthan_100Q_Nov_Exam.pdf` (High Quality Vector PDF)
+5. `Thumbnail_MAT_MahaManthan_UP_NMMS.png` (1280x720 HD High-CTR YouTube Thumbnail)
+6. `Thumbnail_SAT_MahaManthan_UP_NMMS.png` (1280x720 HD High-CTR YouTube Thumbnail)
+7. `Thumbnail_Grand_Combo_MahaManthan_UP_NMMS.png` (1280x720 HD High-CTR YouTube Thumbnail)
+
+### स. विषय-वार प्रश्न विश्लेषण:
+- **MAT (मानसिक योग्यता - 102 प्रश्न):** वर्गीकरण (12), सादृश्यता (12), संख्या श्रेणी (12), अक्षर श्रेणी (10), कोडिंग-डिकोडिंग (10), लुप्त संख्याएं (10), गणितीय संक्रियाएं (8), रक्त संबंध (6), दिशा व दूरी (6), वेन आरेख (6), रैंकिंग (4), अशाब्दिक/दर्पण प्रतिबिम्ब (6)।
+- **SAT (शैक्षिक योग्यता - 100 प्रश्न):** 
+  - विज्ञान (40 प्रश्न): भौतिक विज्ञान 14, रसायन विज्ञान 13, जीव विज्ञान 13
+  - सामाजिक अध्ययन (40 प्रश्न): इतिहास 15, भूगोल 15, नागरिक शास्त्र 10 (उत्तर प्रदेश विशेष तथ्य सम्मिलित)
+  - गणित (20 प्रश्न): परिमेय संख्याएं, वर्गमूल, घनमूल, घातांक, समीकरण, लाभ-हानि, साधारण ब्याज, ज्यामिति, क्षेत्रमिति, सांख्यिकी, प्रायिकता।
 
 ---
 **सफलता का एक ही नाम — सागर कोचिंग सेंटर, भगवानपुर (सुपौल)!**
+
 
 
