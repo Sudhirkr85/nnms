@@ -241,7 +241,7 @@
 - **प्रतिबंधित शब्दों की पूर्ण अनुपस्थिति:** 'comment', 'कमेंट', '10s', 'timer' का शून्य प्रयोग। कोई थंबनेल इमेज फ़ाइलें नहीं।
 
 ### ब. फोल्डर एवं फ़ाइल विवरण:
-#### 1. मानसिक योग्यता परीक्षण (`UP_NMMS_MAT_MahaManthan_5_Sets_SagarSir/`):
+#### 1. मानसिक योग्यता परीक्षण (`UP_NMMS_MahaManthan_Nov_Exam_SagarSir/UP_NMMS_MAT_MahaManthan_5_Sets_SagarSir/`):
 | सेट नाम | PPTX फ़ाइल | PDF फ़ाइल | प्रश्न संख्या | कुल स्लाइड्स |
 | :--- | :--- | :--- | :--- | :--- |
 | **MAT Set 01** | `UP_NMMS_MAT_Set_01.pptx` | `UP_NMMS_MAT_Set_01.pdf` | 50 प्रश्न (Q1-50) | 103 Slides |
@@ -250,7 +250,7 @@
 | **MAT Set 04** | `UP_NMMS_MAT_Set_04.pptx` | `UP_NMMS_MAT_Set_04.pdf` | 50 प्रश्न (Q1-50) | 103 Slides |
 | **MAT Set 05** | `UP_NMMS_MAT_Set_05.pptx` | `UP_NMMS_MAT_Set_05.pdf` | 50 प्रश्न (Q1-50) | 103 Slides |
 
-#### 2. शैक्षिक योग्यता परीक्षण (`UP_NMMS_SAT_MahaManthan_5_Sets_SagarSir/`):
+#### 2. शैक्षिक योग्यता परीक्षण (`UP_NMMS_MahaManthan_Nov_Exam_SagarSir/UP_NMMS_SAT_MahaManthan_5_Sets_SagarSir/`):
 *प्रत्येक सेट में संतुलित विषय विभाजन: विज्ञान 22 प्रश्न + सामाजिक विज्ञान 20 प्रश्न + गणित 8 प्रश्न = 50 प्रश्न।*
 | सेट नाम | PPTX फ़ाइल | PDF फ़ाइल | प्रश्न संख्या | कुल स्लाइड्स |
 | :--- | :--- | :--- | :--- | :--- |
