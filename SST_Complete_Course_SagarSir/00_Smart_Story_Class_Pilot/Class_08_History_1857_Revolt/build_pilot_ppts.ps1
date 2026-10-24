@@ -573,6 +573,9 @@ Write-Output "Teacher Master Story Guide Presentation & PDF created successfully
 
 $ppt.Quit()
 [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ppt) | Out-Null
+[System.GC]::Collect()
+[System.GC]::WaitForPendingFinalizers()
+Start-Sleep -Seconds 3
 
 # ==============================================================
 # POST-PROCESSING: ENSURE 100% MUTED & INDEFINITE LOOPING IN XML
