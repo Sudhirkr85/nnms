@@ -1,0 +1,19 @@
+{
+    "StudentFooter": "सागर कोचिंग सेंटर भगवानपुर • कक्षा 08: 1857 की महान क्रांति • NMMS Special",
+    "TeacherGuideHeader": "शिक्षक मास्टर गाइड [स्लाइड {0}]: {1}",
+    "ScreenViewHeader": "स्क्रीन पर छात्र क्या देख रहे हैं (Screen View):",
+    "BrandingDetails": "कोचिंग सेंटर ब्रांडिंग विवरण (Branding Details):",
+    "QuizQuestions": "टेस्ट प्रश्न (Quiz Questions):",
+    "KeyExamPoints": "मुख्य परीक्षा बिंदु (Key Exam Points):",
+    "TeacherDialogueHeader": "शिक्षक के लिए कथावाचक डायलॉग (Teacher Story Script):",
+    "PunchHeader": "देसी पंच, हास्य व शायरी (Desi Punch & Shayari):",
+    "ShayariPrefix": "शायरी:",
+    "AIPromptHeader": "AI 3D इमेज व वीडियो प्रॉम्प्ट (AI 3D Video Prompt):",
+    "TimerHint": "10 सेकंड सोचिए और सही विकल्प चुनिए: (A), (B), (C) या (D)",
+    "AnswerBanner": "सही उत्तर: ({0})   |   परीक्षा व्याख्या (Exam Explanation):",
+    "TeacherQuestionPrompt": "बच्चों को 10 सेकंड का समय दें: 'स्क्रीन पर प्रश्न ध्यान से पढ़ें और सही विकल्प चुनें: A, B, C या D?'",
+    "TeacherAnswerPrompt": "उत्तर की घोषणा करें और व्याख्या समझाएं: सही विकल्प है ({0})।",
+    "TeacherChallenge": "चैलेंज: 'देखते हैं सबसे पहले सही जवाब कौन सा होनहार छात्र देता है!'",
+    "TeacherSuccess": "शाबाश: 'जिनका उत्तर सही है, उनका 1 नंबर NMMS परीक्षा में पक्का लॉक हो गया!'",
+    "TeacherExamTip": "परीक्षा टिप: यह All India NMMS का रिपीटेड PYQ है, इसे नोटबुक में नोट करवाएं!"
+}
