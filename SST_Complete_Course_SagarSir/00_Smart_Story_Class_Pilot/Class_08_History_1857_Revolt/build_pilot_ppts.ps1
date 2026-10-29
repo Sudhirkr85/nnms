@@ -1,4 +1,4 @@
-$baseDir = "C:\Users\sudhi\OneDrive\Desktop\app\nnms\SST_Complete_Course_SagarSir\00_Smart_Story_Class_Pilot\Class_08_History_1857_Revolt"
+$baseDir = "C:\Users\sudhi\OneDrive\Desktop\New folder\nnms\SST_Complete_Course_SagarSir\00_Smart_Story_Class_Pilot\Class_08_History_1857_Revolt"
 $imgDir = if (Test-Path "$baseDir\images") { "$baseDir\images" } else { "C:\Users\sudhi\.gemini\antigravity\brain\13b57667-ad5e-4cda-811d-01ef90f919b6\scratch\images_backup" }
 $jsonPath = "$baseDir\slides_data.json"
 $labelsPath = "$baseDir\ui_labels.json"
