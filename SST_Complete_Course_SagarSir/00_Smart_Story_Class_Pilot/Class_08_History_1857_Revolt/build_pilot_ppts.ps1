@@ -1,4 +1,4 @@
-$baseDir = "C:\Users\sudhi\OneDrive\Desktop\New folder\nnms\SST_Complete_Course_SagarSir\00_Smart_Story_Class_Pilot\Class_08_History_1857_Revolt"
+﻿$baseDir = "C:\Users\sudhi\OneDrive\Desktop\New folder\nnms\SST_Complete_Course_SagarSir\00_Smart_Story_Class_Pilot\Class_08_History_1857_Revolt"
 $imgDir = if (Test-Path "$baseDir\images") { "$baseDir\images" } else { "C:\Users\sudhi\.gemini\antigravity\brain\13b57667-ad5e-4cda-811d-01ef90f919b6\scratch\images_backup" }
 $jsonPath = "$baseDir\slides_data.json"
 $labelsPath = "$baseDir\ui_labels.json"
@@ -17,10 +17,11 @@ $cGreen     = Get-RGB 16 185 129    # Emerald 500
 $cBlue      = Get-RGB 59 130 246    # Blue 500
 $cBorder    = Get-RGB 51 65 85      # Slate 700
 
-$rawJson = Get-Content -Path $jsonPath -Raw -Encoding UTF8
+$rawJson = [System.IO.File]::ReadAllText($jsonPath, [System.Text.Encoding]::UTF8)
 $slidesData = ConvertFrom-Json $rawJson
 
-$labels = Get-Content -Path $labelsPath -Raw -Encoding UTF8 | ConvertFrom-Json
+$rawLabels = [System.IO.File]::ReadAllText($labelsPath, [System.Text.Encoding]::UTF8)
+$labels = ConvertFrom-Json $rawLabels
 
 Write-Output "Loaded $($slidesData.Count) slides."
 Write-Output "Starting PowerPoint COM engine..."
@@ -442,9 +443,9 @@ foreach ($data in $slidesData) {
         $tbLeftTxt = $slide.Shapes.AddTextbox(1, 28, 90, 344, 420)
         $tbLeftTxt.TextFrame.WordWrap = [Microsoft.Office.Core.MsoTriState]::msoTrue
         if ($data.Type -eq "MCQ_Question") {
-            $tbLeftTxt.TextFrame.TextRange.Text = "प्रश्न:`n$($data.Question)`n`nविकल्प:`n$($data.OptionA)`n$($data.OptionB)`n$($data.OptionC)`n$($data.OptionD)`n`n[छात्र उत्तर सोच रहे हैं...]"
+            $tbLeftTxt.TextFrame.TextRange.Text = "$($labels.QuestionPrefix)`n$($data.Question)`n`n$($labels.OptionsPrefix)`n$($data.OptionA)`n$($data.OptionB)`n$($data.OptionC)`n$($data.OptionD)`n`n$($labels.StudentThinkingPrefix)"
         } else {
-            $tbLeftTxt.TextFrame.TextRange.Text = "प्रश्न:`n$($data.Question)`n`nसही उत्तर: ($($data.Correct))`n`nव्याख्या:`n$($data.Explanation)"
+            $tbLeftTxt.TextFrame.TextRange.Text = "$($labels.QuestionPrefix)`n$($data.Question)`n`n$($labels.CorrectAnswerPrefix) ($($data.Correct))`n`n$($labels.ExplanationPrefix)`n$($data.Explanation)"
         }
         $tbLeftTxt.TextFrame.TextRange.Font.Name = "Segoe UI"
         $tbLeftTxt.TextFrame.TextRange.Font.Size = 10.5
@@ -542,7 +543,7 @@ foreach ($data in $slidesData) {
     
     $tbAiHdr = $slide.Shapes.AddTextbox(1, 405, 422, 525, 22)
     if ($data.Type -like "MCQ*") {
-        $tbAiHdr.TextFrame.TextRange.Text = "NMMS PYQ परीक्षा टिप (Exam Tip):"
+        $tbAiHdr.TextFrame.TextRange.Text = [string]$labels.ExamTipHeader
     } else {
         $tbAiHdr.TextFrame.TextRange.Text = [string]$labels.AIPromptHeader
     }

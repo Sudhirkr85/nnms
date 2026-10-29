@@ -1,4 +1,4 @@
-{
+﻿{
     "StudentFooter": "सागर कोचिंग सेंटर भगवानपुर • कक्षा 08: 1857 की महान क्रांति • NMMS Special",
     "TeacherGuideHeader": "शिक्षक मास्टर गाइड [स्लाइड {0}]: {1}",
     "ScreenViewHeader": "स्क्रीन पर छात्र क्या देख रहे हैं (Screen View):",
@@ -15,5 +15,11 @@
     "TeacherAnswerPrompt": "उत्तर की घोषणा करें और व्याख्या समझाएं: सही विकल्प है ({0})।",
     "TeacherChallenge": "चैलेंज: 'देखते हैं सबसे पहले सही जवाब कौन सा होनहार छात्र देता है!'",
     "TeacherSuccess": "शाबाश: 'जिनका उत्तर सही है, उनका 1 नंबर NMMS परीक्षा में पक्का लॉक हो गया!'",
-    "TeacherExamTip": "परीक्षा टिप: यह All India NMMS का रिपीटेड PYQ है, इसे नोटबुक में नोट करवाएं!"
+    "TeacherExamTip": "परीक्षा टिप: यह All India NMMS का रिपीटेड PYQ है, इसे नोटबुक में नोट करवाएं!",
+    "QuestionPrefix": "प्रश्न:",
+    "OptionsPrefix": "विकल्प:",
+    "StudentThinkingPrefix": "[छात्र उत्तर सोच रहे हैं...]",
+    "CorrectAnswerPrefix": "सही उत्तर:",
+    "ExplanationPrefix": "व्याख्या:",
+    "ExamTipHeader": "NMMS PYQ परीक्षा टिप (Exam Tip):"
 }
