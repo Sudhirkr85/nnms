@@ -1,4 +1,4 @@
-import os
+﻿import os
 import sys
 import json
 import pptx
@@ -105,7 +105,6 @@ def build_single_50q_test(test_idx, cfg, questions_50):
             "इतिहास के 20 अति-महत्वपूर्ण प्रश्न",
             "नागरिक शास्त्र एवं संविधान के 15 प्रश्न",
             "भूगोल एवं पर्यावरण के 15 प्रश्न",
-            "2-स्लाइड इंटरैक्टिव पैटर्न (Answer Hidden Mode)",
             "ऑल इंडिया NMMS 35 में 35 अंक की 100% तैयारी"
         ]
     )
